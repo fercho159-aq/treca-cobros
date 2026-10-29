@@ -32,14 +32,19 @@ export interface CellStatus {
 }
 
 /**
- * Algoritmo Waterfall: acumula todos los pagos de un alumno
- * y los va asignando semana por semana en orden.
+ * Suma lo que se pagó exactamente en una semana (como en el Excel:
+ * cada celda muestra lo cobrado esa semana, sin repartir pagos dobles).
  */
+export function getPaidInWeek(studentPayments: Payment[], weekIndex: number): number {
+  return studentPayments
+    .filter((p) => p.weekNumber === weekIndex && p.status === "pagado")
+    .reduce((sum, p) => sum + (p.amount || 0), 0);
+}
+
 export function getWeekStatus(
   student: Student,
   weekIndex: number, // 0 = inscripción, 1-42
-  payments: Payment[],
-  totalWeeks: number = 42
+  payments: Payment[]
 ): CellStatus {
   const studentPayments = payments.filter((p) => p.studentId === student.id);
 
@@ -57,59 +62,56 @@ export function getWeekStatus(
     return { label: "N/A", color: "#94a3b8", bg: "#f1f5f9", paid: 0 };
   }
 
+  const cost = student.weeklyRate;
+  const paid = getPaidInWeek(studentPayments, weekIndex);
+
+  if (paid >= cost && paid > 0) {
+    return { label: "Pagado", color: "#16a34a", bg: "#dcfce7", paid };
+  }
+  if (paid > 0) {
+    return { label: `Abono $${paid}`, color: "#ea580c", bg: "#ffedd5", paid };
+  }
+
   // Checar si tiene estatus especial para esta semana
   const specificPayment = studentPayments.find((p) => p.weekNumber === weekIndex);
-  if (specificPayment) {
-    if (specificPayment.status === "cortesia") {
-      return { label: "Cortesía", color: "#7c3aed", bg: "#ede9fe", paid: 0 };
-    }
-    if (specificPayment.status === "no_aplica") {
-      return { label: "N", color: "#64748b", bg: "#e2e8f0", paid: 0 };
-    }
+  if (specificPayment?.status === "cortesia") {
+    return { label: "Cortesía", color: "#7c3aed", bg: "#ede9fe", paid: 0 };
   }
-
-  // Waterfall: construir pool de pagos y asignar semana por semana
-  const startWk = student.startWeek || 1;
-  const activeWeeks: number[] = [];
-  for (let w = startWk; w <= totalWeeks; w++) {
-    const spec = studentPayments.find((p) => p.weekNumber === w);
-    if (spec && (spec.status === "cortesia" || spec.status === "no_aplica")) {
-      continue;
-    }
-    activeWeeks.push(w);
-  }
-
-  // Total de pagos en efectivo/transferencia (excluyendo inscripción y estatus especiales)
-  const totalCashPaid = studentPayments
-    .filter(
-      (p) =>
-        p.weekNumber !== 0 &&
-        p.status === "pagado"
-    )
-    .reduce((sum, p) => sum + (p.amount || 0), 0);
-
-  let remainingCash = totalCashPaid;
-  const cost = student.weeklyRate;
-
-  for (const w of activeWeeks) {
-    if (w === weekIndex) {
-      if (remainingCash >= cost) {
-        return { label: "Pagado", color: "#16a34a", bg: "#dcfce7", paid: cost };
-      } else if (remainingCash > 0) {
-        return {
-          label: `Abono $${remainingCash}`,
-          color: "#ea580c",
-          bg: "#ffedd5",
-          paid: remainingCash,
-        };
-      } else {
-        return { label: `$${cost}`, color: "#475569", bg: "transparent", paid: 0 };
-      }
-    }
-    remainingCash = Math.max(0, remainingCash - cost);
+  if (specificPayment?.status === "no_aplica") {
+    return { label: "N", color: "#64748b", bg: "#e2e8f0", paid: 0 };
   }
 
   return { label: `$${cost}`, color: "#475569", bg: "transparent", paid: 0 };
+}
+
+/**
+ * Saldo de un alumno hasta una semana: lo que debía pagar (tarifa por cada
+ * semana que aplica) contra lo que realmente pagó en esas semanas.
+ * Un pago doble en la semana 8 cubre la deuda de la semana 7.
+ */
+export function getStudentBalance(
+  student: Student,
+  payments: Payment[],
+  upToWeek: number
+) {
+  const studentPayments = payments.filter((p) => p.studentId === student.id);
+  const startWk = student.startWeek || 1;
+  let expected = 0;
+  let paid = 0;
+
+  for (let w = startWk; w <= upToWeek; w++) {
+    const weekPaid = getPaidInWeek(studentPayments, w);
+    paid += weekPaid;
+    if (weekPaid > 0) {
+      expected += student.weeklyRate;
+      continue;
+    }
+    const spec = studentPayments.find((p) => p.weekNumber === w);
+    if (spec && (spec.status === "cortesia" || spec.status === "no_aplica")) continue;
+    expected += student.weeklyRate;
+  }
+
+  return { paid, owed: Math.max(0, expected - paid) };
 }
 
 /**
@@ -125,19 +127,9 @@ export function calculateSummary(
 
   for (const student of students) {
     if (student.status === "baja") continue;
-    const startWk = student.startWeek || 1;
-
-    for (let w = startWk; w <= currentWeek; w++) {
-      const status = getWeekStatus(student, w, payments);
-      if (status.label === "Pagado") {
-        totalPaid += student.weeklyRate;
-      } else if (status.label.startsWith("Abono")) {
-        totalPaid += status.paid;
-        totalOwed += student.weeklyRate - status.paid;
-      } else if (status.label.startsWith("$")) {
-        totalOwed += student.weeklyRate;
-      }
-    }
+    const balance = getStudentBalance(student, payments, currentWeek);
+    totalPaid += balance.paid;
+    totalOwed += balance.owed;
   }
 
   const collectionRate = totalPaid + totalOwed > 0
