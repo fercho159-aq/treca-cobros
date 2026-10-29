@@ -74,20 +74,6 @@ export default function FortalezaListasTab() {
   return (
     <div className="overflow-auto h-full">
       <table className="border-collapse text-xs w-full" style={{ minWidth: "900px" }}>
-        <thead className="sticky top-0 z-20">
-          <tr className="bg-[#0000CC] text-white">
-            <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[30px]">#</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[200px]">ALUMNO</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-center min-w-[50px]">Grado</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-center min-w-[50px]">Grupo</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[110px]">TELEFONO 1</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[110px]">TELEFONO 2</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-center min-w-[60px]">INGRESO</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-center min-w-[60px]">TARIFA</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-center min-w-[90px]">Inscripcion</th>
-            <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[150px]">Observaciones</th>
-          </tr>
-        </thead>
         <tbody>
           {sections.length === 0 ? (
             <tr>
@@ -106,52 +92,105 @@ export default function FortalezaListasTab() {
   );
 }
 
+const ROWS_PER_SECTION = 30;
+
 function SectionRows({ section }: { section: Section }) {
+  // Generar 30 filas como en el Excel (numeradas, con datos o vacías)
+  const rows = Array.from({ length: ROWS_PER_SECTION }, (_, i) => {
+    const rowNum = i + 1;
+    const student = section.students.find((s) => s.numInSection === rowNum);
+    return { rowNum, student };
+  });
+
   return (
     <>
-      {/* Header de sección como en Excel */}
-      <tr className="bg-[#D9E2F3]">
-        <td className="border border-gray-300 px-2 py-1 font-bold text-[11px]" colSpan={10}>
-          <span className="text-blue-800">ESCUELA:</span> {section.school}
-          <span className="mx-4 text-blue-800">TURNO:</span> {section.shift}
-          <span className="mx-4 text-blue-800">CUSTODIO:</span> {section.driver}
+      {/* Número de sección */}
+      <tr className="bg-[#0000CC]">
+        <td className="border border-[#0000AA] px-2 py-1 text-white font-bold text-[11px]" colSpan={1}>
+          {section.sectionNum}
         </td>
+        <td className="border border-[#0000AA] px-2 py-1 text-white font-bold text-[11px]" colSpan={2}>
+          ESCUELA: {section.school}
+        </td>
+        <td className="border border-[#0000AA] px-2 py-1 text-white font-bold text-[11px]" colSpan={2}>
+          TURNO: {section.shift === "Matutino" ? "MAT" : section.shift === "Vespertino" ? "VESP" : section.shift}
+        </td>
+        <td className="border border-[#0000AA] px-2 py-1 text-white font-bold text-[11px]" colSpan={3}>
+          CUSTODIO: {section.driver}
+        </td>
+        <td className="border border-[#0000AA] px-2 py-1" colSpan={2}></td>
       </tr>
 
-      {section.students.map((student, idx) => (
+      {/* Header de columnas */}
+      <tr className="bg-[#0000CC] text-white">
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">#</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold">ALUMNO</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">Grado</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">Grupo</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold">TELEFONO 1</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold">TELEFONO 2</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">INGRESO</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">TARIFA</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold text-center">Inscripción</td>
+        <td className="border border-[#0000AA] px-2 py-0.5 text-[10px] font-bold">Observaciones</td>
+      </tr>
+
+      {/* Filas numeradas (30 por sección como en Excel) */}
+      {rows.map(({ rowNum, student }) => (
         <tr
-          key={student.id}
-          className={`${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-yellow-50 ${
-            student.status === "baja" ? "opacity-50 line-through" : ""
+          key={`${section.sectionNum}-${rowNum}`}
+          className={`bg-white hover:bg-yellow-50 ${
+            student?.status === "baja" ? "opacity-50" : ""
           }`}
         >
-          <td className="border border-gray-300 px-2 py-1 text-center text-gray-500">
-            {student.numInSection}
+          <td className="border border-gray-300 px-2 py-0.5 text-center text-[10px] text-gray-500 w-[30px]">
+            {rowNum}
           </td>
-          <td className="border border-gray-300 px-2 py-1">
-            <Link
-              href={`/cobros/${student.id}`}
-              className="hover:underline hover:text-blue-600"
-            >
-              {student.name}
-            </Link>
-          </td>
-          <td className="border border-gray-300 px-2 py-1 text-center">{student.grade}</td>
-          <td className="border border-gray-300 px-2 py-1 text-center">{student.groupClass}</td>
-          <td className="border border-gray-300 px-2 py-1">{student.parentPhone}</td>
-          <td className="border border-gray-300 px-2 py-1">{student.parentPhone2}</td>
-          <td className="border border-gray-300 px-2 py-1 text-center"></td>
-          <td className="border border-gray-300 px-2 py-1 text-center font-medium">
-            {student.weeklyRate}
-          </td>
-          <td className={`border border-gray-300 px-2 py-1 text-center font-medium ${
-            student.inscriptionPaid ? "text-green-700 bg-[#C6EFCE]" : "text-red-600"
-          }`}>
-            {student.inscriptionPaid ? "PAGADA" : ""}
-          </td>
-          <td className="border border-gray-300 px-2 py-1 text-gray-500">{student.notes}</td>
+          {student ? (
+            <>
+              <td className="border border-gray-300 px-2 py-0.5 text-[11px]">
+                <Link
+                  href={`/cobros/${student.id}`}
+                  className="hover:underline hover:text-blue-600"
+                >
+                  {student.name}
+                </Link>
+              </td>
+              <td className="border border-gray-300 px-2 py-0.5 text-center text-[10px]">{student.grade}</td>
+              <td className="border border-gray-300 px-2 py-0.5 text-center text-[10px]">{student.groupClass}</td>
+              <td className="border border-gray-300 px-2 py-0.5 text-[10px]">{student.parentPhone}</td>
+              <td className="border border-gray-300 px-2 py-0.5 text-[10px]">{student.parentPhone2}</td>
+              <td className="border border-gray-300 px-2 py-0.5 text-center text-[10px]"></td>
+              <td className="border border-gray-300 px-2 py-0.5 text-center text-[10px] font-medium">
+                {student.weeklyRate}
+              </td>
+              <td className={`border border-gray-300 px-2 py-0.5 text-center text-[10px] font-bold ${
+                student.inscriptionPaid ? "text-green-700 bg-[#C6EFCE]" : student.notes?.toLowerCase().includes("debe") ? "text-red-600" : ""
+              }`}>
+                {student.inscriptionPaid ? "PAGADA" : student.notes?.toLowerCase().includes("debe") ? student.notes : ""}
+              </td>
+              <td className="border border-gray-300 px-2 py-0.5 text-[10px] text-gray-500">{student.notes}</td>
+            </>
+          ) : (
+            <>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+              <td className="border border-gray-300 px-2 py-0.5"></td>
+            </>
+          )}
         </tr>
       ))}
+
+      {/* Espacio entre secciones */}
+      <tr className="h-2 bg-gray-100">
+        <td colSpan={10}></td>
+      </tr>
     </>
   );
 }
