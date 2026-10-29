@@ -4,11 +4,13 @@ import { useState } from "react";
 import PagoSemanalTab from "@/components/tabs/pago-semanal";
 import FortalezaListasTab from "@/components/tabs/fortaleza-listas";
 import CuentasGeneralTab from "@/components/tabs/cuentas-general";
+import CuentasFinalesTab from "@/components/tabs/cuentas-finales";
 
 const TABS = [
   { id: "listas", label: "Fortaleza Listas" },
   { id: "pagos", label: "Pago semanal - Fortaleza" },
   { id: "cuentas", label: "Cuentas General Fortaleza" },
+  { id: "finales", label: "Cuentas Finales" },
 ] as const;
 
 type TabId = (typeof TABS)[number]["id"];
@@ -23,6 +25,7 @@ export default function Home() {
         {activeTab === "listas" && <FortalezaListasTab />}
         {activeTab === "pagos" && <PagoSemanalTab />}
         {activeTab === "cuentas" && <CuentasGeneralTab />}
+        {activeTab === "finales" && <CuentasFinalesTab />}
       </div>
 
       {/* Tabs en la parte inferior - estilo Excel */}
