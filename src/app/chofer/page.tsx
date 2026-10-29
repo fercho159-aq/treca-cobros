@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { collection, onSnapshot, query, where, addDoc, Timestamp } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { getCurrentWeek } from "@/utils/calendar";
-import { getWeekStatus } from "@/utils/payments";
+import { getWeekStatus, getStudentBalance } from "@/utils/payments";
 import type { Student, Payment } from "@/utils/payments";
 
 const CHOFER_CREDENTIALS: Record<string, { password: string; driver: string; label: string }> = {
@@ -202,14 +202,10 @@ export default function ChoferPage() {
           const isPaid = weekStatus.label === "Pagado";
           const inscPaid = inscStatus.label === "✓";
 
-          // Calcular semanas adelantadas o atrasadas
-          let lastPaidWeek = 0;
-          for (let w = 42; w >= 1; w--) {
-            const ws = getWeekStatus(student, w, payments);
-            if (ws.label === "Pagado") { lastPaidWeek = w; break; }
-          }
-          const adelantado = lastPaidWeek > currentWeek;
-          const atrasado = !isPaid && currentWeek > 1;
+          // Saldo real: pagado contra lo que debía hasta esta semana
+          const balance = getStudentBalance(student, payments, currentWeek);
+          const adelantado = balance.credit > 0;
+          const atrasado = balance.owed > 0;
 
           return (
             <div key={student.id}
@@ -246,7 +242,7 @@ export default function ChoferPage() {
                     )}
 
                     {adelantado && (
-                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-700">ADELANTADO hasta sem {lastPaidWeek}</span>
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-700">ADELANTADO ${balance.credit}</span>
                     )}
                   </div>
                 </div>

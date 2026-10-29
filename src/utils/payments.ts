@@ -111,7 +111,7 @@ export function getStudentBalance(
     expected += student.weeklyRate;
   }
 
-  return { paid, owed: Math.max(0, expected - paid) };
+  return { paid, owed: Math.max(0, expected - paid), credit: Math.max(0, paid - expected) };
 }
 
 /**
