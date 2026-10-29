@@ -1,0 +1,4788 @@
+{
+  "fortaleza_listas": [
+    {
+      "section_num": "1",
+      "escuela": "MINERVA",
+      "turno": "MAT",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Yareth Alexel Garcia Cruz",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5639193363",
+          "tel2": "5547191795",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 2,
+          "nombre": "Dania Arleth Iñigo Lazcano",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5629655324",
+          "tel2": "5618059363",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 3,
+          "nombre": "Santiago Abdiel Quintero Juarez",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5616951221",
+          "tel2": "5561197443",
+          "tarifa": 175,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Emili Romina Quintero Juarez",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "561695121",
+          "tel2": "5561197443",
+          "tarifa": 175,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 5,
+          "nombre": "Mauricio Redonda Jimenez",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5521878123",
+          "tel2": "5612718051",
+          "tarifa": null,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "2",
+      "escuela": "OSOS",
+      "turno": "MAT",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Katheryne N. Sanchez Armenta",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5521120912",
+          "tel2": "5512421564",
+          "tarifa": 350,
+          "inscripcion": "PAGADA"
+        },
+        {
+          "num": 2,
+          "nombre": "Jose de Jesus Castillo",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5662090229",
+          "tel2": "5550447285",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 3,
+          "nombre": "Tadeo said Diaz",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5561884906",
+          "tel2": "5646173922",
+          "tarifa": 320,
+          "inscripcion": ""
+        },
+        {
+          "num": 4,
+          "nombre": "Said E. Jimenez",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5572728393",
+          "tel2": "5528029222",
+          "tarifa": 350,
+          "inscripcion": "Debe 300"
+        },
+        {
+          "num": 5,
+          "nombre": "Ariadna Naomi Ramirez",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5636316080",
+          "tel2": "5626576475",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 6,
+          "nombre": "Caleb Azael Ramirez",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5636316080",
+          "tel2": "5626576475",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 7,
+          "nombre": "Eduardo Hiroshi Carrillo Lopez",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5549367795",
+          "tel2": "5513397984",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 8,
+          "nombre": "Emeli Sarai Mena Roque",
+          "grado": "3",
+          "grupo": "D",
+          "tel1": "5515021061",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 9,
+          "nombre": "Alberto Ivan Avila Rodriguez",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5525216211",
+          "tel2": "5535644563",
+          "tarifa": 350,
+          "inscripcion": "PADAGA",
+          "observaciones": "5568666743"
+        }
+      ]
+    },
+    {
+      "section_num": "3",
+      "escuela": "OSOS",
+      "turno": "VESP",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Mario Cristobal Gonzalez Buen dia",
+          "grado": "3",
+          "grupo": "D",
+          "tel1": "5571922127",
+          "tel2": "5513319010",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 2,
+          "nombre": "Dania Sophia Morales Arias",
+          "grado": "1",
+          "grupo": "C",
+          "tel1": "5646546221",
+          "tel2": "5951482157",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 3,
+          "nombre": "Catherine Zoe Valencia Gutierrez",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5648339287",
+          "tel2": "5521957852",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Yatziry Danae Carmona Perez",
+          "grado": "2",
+          "grupo": "B",
+          "tel1": "5513324212",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 5,
+          "nombre": "Mileny Alejandra Arias Alarcon",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5532162288",
+          "tel2": "5593084367",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 6,
+          "nombre": "Maria Valeriano Cruz",
+          "grado": "3",
+          "grupo": "F",
+          "tel1": "5525050411",
+          "tel2": "5567905571",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 7,
+          "nombre": "Juan Jose Garcia Torrez",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5665841676",
+          "tel2": "5528889335",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Byron Francisco Lopez Perez",
+          "grado": "2",
+          "grupo": "F",
+          "tel1": "5585933230",
+          "tel2": "5514452078",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 9,
+          "nombre": "Daniela Hernandez Robles",
+          "grado": "1",
+          "grupo": "E",
+          "tel1": "5568852820",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Dulce Marly Bugarin Morelos",
+          "grado": "3",
+          "grupo": "E",
+          "tel1": "5564627955",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 11,
+          "nombre": "Tania Danae Martinez Lara",
+          "grado": "3",
+          "grupo": "E",
+          "tel1": "5534992178",
+          "tel2": "5656107024",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 12,
+          "nombre": "Samanta Cruz Pacheco",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5562329615",
+          "tel2": "5560329616",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Valeria",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5572930437",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "4",
+      "escuela": "FEDERICO FROBEL",
+      "turno": "MAT",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Emili Yaret Luna Jimenez",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5535198597",
+          "tel2": "5535241417",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Kerlin Samara Gomez Alejo",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5620214292",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Ian Hernandez Nuñez",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5649898975",
+          "tel2": "5544786509",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 4,
+          "nombre": "Valeria Stephanie Alvarado Alejo",
+          "grado": "",
+          "grupo": "",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 5,
+          "nombre": "Diego",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5534726158",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        }
+      ]
+    },
+    {
+      "section_num": "5",
+      "escuela": "OSOS",
+      "turno": "VESP",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Nelly Prutero Valverde",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5611960674",
+          "tel2": "5651347492",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 2,
+          "nombre": "Allison A. Martinez Corona",
+          "grado": "2",
+          "grupo": "D",
+          "tel1": "5539446038",
+          "tel2": "5648951096",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Emili A. Cena Lozano",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5525004219",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "David Alfonso",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5538241124",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 5,
+          "nombre": "Dilan A. Muniz Gonzalez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5524912136",
+          "tel2": "5610142424",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 6,
+          "nombre": "Luz M. Velazquez Alvarez",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5621376863",
+          "tel2": "5575673074",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 7,
+          "nombre": "Paola Peralta Olivares",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5519343796",
+          "tel2": "5550445488",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Mateo I. Gonzalez Martinez",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5573486544",
+          "tel2": "",
+          "tarifa": 320,
+          "inscripcion": ""
+        },
+        {
+          "num": 9,
+          "nombre": "Daniela G. Rivas Rodriguez",
+          "grado": "3",
+          "grupo": "E",
+          "tel1": "5533104514",
+          "tel2": "5647137101",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Isac Y. Lopez Gonzalez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5573486544",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 11,
+          "nombre": "Alondra Yamileth Almanza",
+          "grado": "3",
+          "grupo": "F",
+          "tel1": "5562241933",
+          "tel2": "5580155142",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 12,
+          "nombre": "Constanza",
+          "grado": "3",
+          "grupo": "C",
+          "tel1": "5541272168",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Nayelly Ramirez Juarez",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5574842850",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 14,
+          "nombre": "Rafael Ramirez Juarez",
+          "grado": "1",
+          "grupo": "E",
+          "tel1": "5574842850",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 15,
+          "nombre": "Jimena Perez Zuniga",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5585610804",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 16,
+          "nombre": "Iran Montalvo Paez",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5548055913",
+          "tel2": "5534124595",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 17,
+          "nombre": "Valeska Mailet Moralez Alonso",
+          "grado": "2",
+          "grupo": "B",
+          "tel1": "5566709230",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        }
+      ]
+    },
+    {
+      "section_num": "6",
+      "escuela": "OSOS",
+      "turno": "MAT",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Jesus Y. Altamirano Morales",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5656725077",
+          "tel2": "5617685099",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Melanny Paulina Montiel Jimenez",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5631360959",
+          "tel2": "5549270006",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 3,
+          "nombre": "Sandra G. Castillo Guerrero",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5554958210",
+          "tel2": "5638316600",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Hannia Ramirez Suarez",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5538534524",
+          "tel2": "5533459197",
+          "tarifa": 320,
+          "inscripcion": ""
+        },
+        {
+          "num": 5,
+          "nombre": "Frida Ixchel Chavarria Figueroa",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5648321068",
+          "tel2": "5586812932",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Julieta Chavarria Figueroa",
+          "grado": "2",
+          "grupo": "",
+          "tel1": "5648321068",
+          "tel2": "5586812932",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 7,
+          "nombre": "Maria Fernanda Cameon de la O.",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5581801382",
+          "tel2": "5567719521",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 8,
+          "nombre": "Nathan David Escalon",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5619614893",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 9,
+          "nombre": "Edgar Santiago Reyes Jimenez",
+          "grado": "2",
+          "grupo": "",
+          "tel1": "5614844666",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 10,
+          "nombre": "Constanza M. Peralta Pliego",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5635460348",
+          "tel2": "5618961791",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 11,
+          "nombre": "Luis Peralta Pliego",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5635460348",
+          "tel2": "5618961791",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 12,
+          "nombre": "Africa B. Perez Gonzalez",
+          "grado": "2",
+          "grupo": "",
+          "tel1": "5666141403",
+          "tel2": "5567589998",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Jesus D. Buendia Gonzalez",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "5521267711",
+          "tel2": "5564687765",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 14,
+          "nombre": "Isabella Hernandez Villegas",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5624826106",
+          "tel2": "5629758475",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 15,
+          "nombre": "Uriel Udarte Pachecho",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5618077942",
+          "tel2": "55058954",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 16,
+          "nombre": "Isabel Uzcanga",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5656342250",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "7",
+      "escuela": "AMERICAS",
+      "turno": "MAT",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Amanda Sofia Duran Garcia",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5656098723",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Regina Zepeda Gonzalez",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5615438664",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Maria Jose Zepeda Gzl",
+          "grado": "6",
+          "grupo": "A",
+          "tel1": "5615438664",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 4,
+          "nombre": "Romina De Jesus Gonzalez",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5513887128",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PAGADA"
+        },
+        {
+          "num": 5,
+          "nombre": "Jorge Delgado Mtz.",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5521722471",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Ian Yael Ortega Rojas",
+          "grado": "4",
+          "grupo": "",
+          "tel1": "5559690691",
+          "tel2": "5610534280",
+          "tarifa": 350,
+          "inscripcion": "PAGADA"
+        },
+        {
+          "num": 7,
+          "nombre": "Matias Itzae",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5584931039",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Evan Alexander Rodriguez Marquez",
+          "grado": "4",
+          "grupo": "A",
+          "tel1": "5533132583",
+          "tel2": "5545255164",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 9,
+          "nombre": "Santiago Misael",
+          "grado": "4",
+          "grupo": "A",
+          "tel1": "5517035370",
+          "tel2": "5528516527",
+          "tarifa": null,
+          "inscripcion": "PAGADA"
+        }
+      ]
+    },
+    {
+      "section_num": "8",
+      "escuela": "OSOS",
+      "turno": "MAT",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Mariana Beristan Pascasio",
+          "grado": "3",
+          "grupo": "D",
+          "tel1": "5537325753",
+          "tel2": "5558519102",
+          "tarifa": 320,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Sandra Marlen Renteria Tadeo",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5613131117",
+          "tel2": "5574350968",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Andres Jesus Velazquez",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5534163944",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Jesus Andres Martinez",
+          "grado": "2",
+          "grupo": "D",
+          "tel1": "5522229318",
+          "tel2": "5641137137",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 5,
+          "nombre": "Gretell Natalia Mejia Granados",
+          "grado": "2",
+          "grupo": "F",
+          "tel1": "5529116628",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Kenia Monserrath Hernandez Pineda",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5256145826",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 7,
+          "nombre": "Diego Gonzaloz Dias",
+          "grado": "",
+          "grupo": "",
+          "tel1": "5516348264",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Melany Juliana Carreon",
+          "grado": "2",
+          "grupo": "D",
+          "tel1": "5526588763",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 9,
+          "nombre": "Camila Hernandez Alvarez",
+          "grado": "3",
+          "grupo": "A",
+          "tel1": "5580395530",
+          "tel2": "5580324169",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Eder",
+          "grado": "1",
+          "grupo": "",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 11,
+          "nombre": "Cristofer Soliz Trejo",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 12,
+          "nombre": "Luis Santiago Buendia Perez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Johana Fernanda Ribas Hernandez",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5520033837",
+          "tel2": "5542168942",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 14,
+          "nombre": "Leonardo Espinoza Palma",
+          "grado": "1",
+          "grupo": "C",
+          "tel1": "5561832831",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 15,
+          "nombre": "Marvin Yaron Santo Rodriguez",
+          "grado": "1",
+          "grupo": "C",
+          "tel1": "9987648131",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 16,
+          "nombre": "Oscar Jose Hernandez Alvarez",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 300,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 17,
+          "nombre": "Emily Anabel Oropeza Pena",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 18,
+          "nombre": "Alexandra Peralta Gonzalez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5533131590",
+          "tel2": "5516348264",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 19,
+          "nombre": "Jonathan Ruiz Velazquez",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 20,
+          "nombre": "Erick De la Cruz Gonzalez",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5627919403",
+          "tel2": "5551244287",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 21,
+          "nombre": "Ayelen Romero Alcantara",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5625671024",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 22,
+          "nombre": "Fernando Tadeo Ventura Coronel",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5525412747",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 23,
+          "nombre": "Diego",
+          "grado": "",
+          "grupo": "",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": null,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "9",
+      "escuela": "OSOS",
+      "turno": "VESP",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Zahori Itzel Romero Flores",
+          "grado": "2",
+          "grupo": "B",
+          "tel1": "9541627506",
+          "tel2": "5540433527",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Angel Rosales Galeana",
+          "grado": "1",
+          "grupo": "C",
+          "tel1": "5630265589",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Narella Yoselyn Martinez Valencia",
+          "grado": "1",
+          "grupo": "C",
+          "tel1": "5591041583",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Abril Ximena Cruz Gomez",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5617902841",
+          "tel2": "",
+          "tarifa": 275,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 5,
+          "nombre": "Jose Angel Hernandez Andres",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5571429289",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Angelica Nicolet Cortez Morales",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5518079997",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 7,
+          "nombre": "Esthefany Abril Campos",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5544162342",
+          "tel2": "5579878572",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Yiraldi Cruz Severiano",
+          "grado": "1",
+          "grupo": "E",
+          "tel1": "5567715637",
+          "tel2": "5527571065",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 9,
+          "nombre": "Camila Ines Bautista Perez",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5587388590",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Danna Paola Corenel Moreno",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5620527747",
+          "tel2": "5540361126",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 11,
+          "nombre": "Jessica Anai Pena Ramirez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5522062705",
+          "tel2": "5624943564",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 12,
+          "nombre": "Yaretzi Cruz Gomez",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 275,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 13,
+          "nombre": "Alisson Samantha Cruz",
+          "grado": "3",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 14,
+          "nombre": "Sofia Minerva Herrera Martinez",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5579413776",
+          "tel2": "5525201632",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 15,
+          "nombre": "Leonardo Montero Hernandez",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": null,
+          "inscripcion": ""
+        },
+        {
+          "num": 16,
+          "nombre": "Jose Ezequiel Morales Solis",
+          "grado": "2",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": null,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "10",
+      "escuela": "MOISES",
+      "turno": "MAT",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Julian Abraham Santana Corona",
+          "grado": "5",
+          "grupo": "",
+          "tel1": "5626503125",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 2,
+          "nombre": "Ximena Ikal Bustamante Corona",
+          "grado": "4",
+          "grupo": "A",
+          "tel1": "5616252016",
+          "tel2": "5637614212",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 3,
+          "nombre": "Ximenna Martin Avila",
+          "grado": "6",
+          "grupo": "A",
+          "tel1": "5619597408",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 4,
+          "nombre": "Mateo Rojas Carbajal",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5535576100",
+          "tel2": "5541260752",
+          "tarifa": "Cortesia",
+          "inscripcion": "Cortesia"
+        },
+        {
+          "num": 5,
+          "nombre": "Maria Fernanda",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5547693460",
+          "tel2": "5565866991",
+          "tarifa": 200,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 6,
+          "nombre": "Gael",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5617670785",
+          "tel2": "5521260836",
+          "tarifa": 300,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 7,
+          "nombre": "Melany Rojas Avila",
+          "grado": "2",
+          "grupo": "A",
+          "tel1": "5514705576",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 8,
+          "nombre": "Sandra Nicol Arriola Cruz",
+          "grado": "2",
+          "grupo": "B",
+          "tel1": "5646218731",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 9,
+          "nombre": "Andrea",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5541165534",
+          "tel2": "",
+          "tarifa": 300,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Fatima Alondra",
+          "grado": "4",
+          "grupo": "A",
+          "tel1": "5527794367",
+          "tel2": "",
+          "tarifa": 200,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 11,
+          "nombre": "Sofia Valeria Ruiz Mendoz",
+          "grado": "4",
+          "grupo": "D",
+          "tel1": "5588871593",
+          "tel2": "5627052010",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 12,
+          "nombre": "Giselle Anahi Salinas Andres",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5638203624",
+          "tel2": "",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Iker Alexcel Aguilar Tirado",
+          "grado": "5",
+          "grupo": "A",
+          "tel1": "5566372112",
+          "tel2": "5571904455",
+          "tarifa": 350,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "11",
+      "escuela": "OSOS",
+      "turno": "MAT",
+      "custodio": "OSCAR - CAROLINA",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Luz Gabriela Sosa Hernandez",
+          "grado": "3",
+          "grupo": "D",
+          "tel1": "5637791678",
+          "tel2": "5565845648",
+          "tarifa": 320,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Said Alejandro Sanchez Santiago",
+          "grado": "3",
+          "grupo": "C",
+          "tel1": "5534001410",
+          "tel2": "5558511408",
+          "tarifa": 250,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Alondra Cruz Ponce",
+          "grado": "3",
+          "grupo": "",
+          "tel1": "5263410640",
+          "tel2": "5520505722",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 4,
+          "nombre": "Abril Cruz Ponce",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5263410640",
+          "tel2": "5520505722",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 5,
+          "nombre": "Ximena Said Gonzalez Tepetitla",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5634602865",
+          "tel2": "5540208783",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Jade Sujey Delgado Garduno",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5630324461",
+          "tel2": "5611410008",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 7,
+          "nombre": "Ximena Abundis Escamilla",
+          "grado": "2",
+          "grupo": "F",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 8,
+          "nombre": "Sofia Danae Cuevas Galicia",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5574618537",
+          "tel2": "5558532928",
+          "tarifa": 250,
+          "inscripcion": "PADAGA",
+          "observaciones": "salida"
+        },
+        {
+          "num": 9,
+          "nombre": "Ximena Fernanda Nequiz Zamora",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5536795030",
+          "tel2": "5619673413",
+          "tarifa": 300,
+          "inscripcion": ""
+        },
+        {
+          "num": 11,
+          "nombre": "Byron Nahuj Flores Ramirez",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5539760521",
+          "tel2": "5626483719",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 12,
+          "nombre": "Regina Flores de Paz",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "5624248899",
+          "tel2": "5572725677",
+          "tarifa": 200,
+          "inscripcion": ""
+        }
+      ]
+    },
+    {
+      "section_num": "12",
+      "escuela": "OSOS",
+      "turno": "VESP",
+      "custodio": "OSCAR - CAROLINA",
+      "students": [
+        {
+          "num": 1,
+          "nombre": "Ares Torres Guevara",
+          "grado": "2",
+          "grupo": "",
+          "tel1": "5617026142",
+          "tel2": "5529202064",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 2,
+          "nombre": "Ashley Yoseline Maldonado",
+          "grado": "2",
+          "grupo": "C",
+          "tel1": "5517265110",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 3,
+          "nombre": "Mateo Perez Jimenez",
+          "grado": "2",
+          "grupo": "F",
+          "tel1": "5529486359",
+          "tel2": "5576168545",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 4,
+          "nombre": "Genessis Lopez Nicolas",
+          "grado": "2",
+          "grupo": "E",
+          "tel1": "5584976386",
+          "tel2": "5581054254",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 5,
+          "nombre": "Daniel Ubaldo Reyes",
+          "grado": "2",
+          "grupo": "D",
+          "tel1": "5549125025",
+          "tel2": "5574252610",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 6,
+          "nombre": "Miriam Itzayana Vazquez Marin",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5540469258",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 7,
+          "nombre": "Santiago Geronimo Moreno",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5530555115",
+          "tel2": "5539801858",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 8,
+          "nombre": "Maria Fernanda Dominguez Vargas",
+          "grado": "1",
+          "grupo": "F",
+          "tel1": "5573643083",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 9,
+          "nombre": "Zuri Hernandez Miguel",
+          "grado": "3",
+          "grupo": "F",
+          "tel1": "5535724819",
+          "tel2": "",
+          "tarifa": 350,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 10,
+          "nombre": "Emili Natasha Salasar Maderoi",
+          "grado": "!",
+          "grupo": "B",
+          "tel1": "5551118212",
+          "tel2": "5545636509",
+          "tarifa": 250,
+          "inscripcion": "PADAGA"
+        },
+        {
+          "num": 11,
+          "nombre": "Maria Fernanda Maravilla",
+          "grado": "1",
+          "grupo": "A",
+          "tel1": "5586940951",
+          "tel2": "5551116548",
+          "tarifa": 350,
+          "inscripcion": "150"
+        },
+        {
+          "num": 12,
+          "nombre": "Danna Sofia Torres Lozano",
+          "grado": "1",
+          "grupo": "B",
+          "tel1": "5577572617",
+          "tel2": "56621353736",
+          "tarifa": 350,
+          "inscripcion": ""
+        },
+        {
+          "num": 13,
+          "nombre": "Yamileth Perez Ruiz",
+          "grado": "1",
+          "grupo": "D",
+          "tel1": "",
+          "tel2": "",
+          "tarifa": null,
+          "inscripcion": ""
+        }
+      ]
+    }
+  ],
+  "pago_semanal_fortaleza": [
+    {
+      "section_num": "1",
+      "escuela": "MINERVA",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Yareth Alexel Garcia Cruz",
+          "tel1": "5639193363",
+          "tel2": "5547191795",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Dania Arleth Iñigo Lazcano",
+          "tel1": "5629655324",
+          "tel2": "5618059363",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "700",
+            "4": "700",
+            "5": "700",
+            "7": "700"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Santiago Abdiel Quintero Juarez",
+          "tel1": "5616951221",
+          "tel2": "5561197443",
+          "inscripcion": "300",
+          "tarifa": "175",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "175",
+            "2": "175",
+            "4": "350",
+            "5": "350",
+            "7": "175",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Emili Romina Quintero Juarez",
+          "tel1": "5616951221",
+          "tel2": "5561197443",
+          "inscripcion": "300",
+          "tarifa": "175",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "175",
+            "2": "175",
+            "4": "350",
+            "5": "350",
+            "7": "175",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Mauricio Redonda Jimenez",
+          "tel1": "5521878123",
+          "tel2": "5612718051",
+          "inscripcion": "",
+          "tarifa": "200",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "N",
+            "2": "N",
+            "3": "N",
+            "4": "N",
+            "5": "N",
+            "6": "N",
+            "7": "N",
+            "8": "200"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "2",
+      "escuela": "OSOS",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": "3",
+          "nombre": "Tadeo said Diaz",
+          "tel1": "5561884906",
+          "tel2": "5646173922",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "ENTRO Y CORTESIA",
+            "3": "350",
+            "5": "700",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Ariadna Naomi Ramirez",
+          "tel1": "5636316080",
+          "tel2": "5626576475",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300",
+            "8": "300"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Eduardo Hiroshi Carrillo Lopez",
+          "tel1": "5549367795",
+          "tel2": "5513397984",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "entro y cortesia",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Emeli Sarai Mena Roque",
+          "tel1": "5515021061",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Alberto Ivan Avila Rodriguez",
+          "tel1": "5525216211",
+          "tel2": "5535644563",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "650"
+          }
+        },
+        {
+          "num": "1",
+          "nombre": "Katheryne N. Sanchez Armenta",
+          "tel1": "5521120912",
+          "tel2": "5512421564",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "24 SEPT - $300",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Jose de Jesus Castillo",
+          "tel1": "5662090229",
+          "tel2": "5550447285",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Said E. Jimenez",
+          "tel1": "5572728393",
+          "tel2": "5528029222",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "Debe 300",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "320",
+            "2": "320",
+            "3": "320",
+            "4": "320",
+            "5": "320",
+            "6": "320",
+            "7": "320",
+            "8": "320"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Caleb Azael Ramirez",
+          "tel1": "5636316080",
+          "tel2": "5626576475",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300",
+            "8": "300"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "3",
+      "escuela": "OSOS",
+      "custodio": "DANIEL CARMEN",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Mario Cristobal Gonzalez Buen dia",
+          "tel1": "5571922127",
+          "tel2": "5513319010",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Catherine Zoe Valencia Gutierrez",
+          "tel1": "5648339287",
+          "tel2": "5521957852",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "400",
+            "3": "------",
+            "4": "350",
+            "5": "350",
+            "6": "650",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Yatziry Danae Carmona Perez",
+          "tel1": "5513324212",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Maria Valeriano Cruz",
+          "tel1": "5525050411",
+          "tel2": "5567905571",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "400",
+            "2": "300",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Juan José García Torrez",
+          "tel1": "5665841676",
+          "tel2": "5528889335",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "---",
+            "6": "700",
+            "8": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Byron Francisco Lopéz Pérez",
+          "tel1": "5585933230",
+          "tel2": "5514452078",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Daniela Hernández Robles",
+          "tel1": "5568852820",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Dulce Marly Bugarin Morelos",
+          "tel1": "5564627955",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Tania Danae Martínez Lara",
+          "tel1": "5534992178",
+          "tel2": "5656107024",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "250"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Samanta Cruz Pacheco",
+          "tel1": "5562329615",
+          "tel2": "5560329616",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "230",
+            "5": "350",
+            "6": "350",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Dania Sophia Morales Arias",
+          "tel1": "5646546221",
+          "tel2": "5951482157",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Mileny Alejandra Arias Alarcon",
+          "tel1": "5532162288",
+          "tel2": "5593084367",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Valeria",
+          "tel1": "",
+          "tel2": "5572930437",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "4",
+      "escuela": "FEDERICO FROBEL",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Emili Yaret Luna Jimenez",
+          "tel1": "5535198597",
+          "tel2": "5535241417",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "500",
+            "8": "250"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Kerlin Samara Gomez Alejo",
+          "tel1": "5620214292",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "CORTESIA",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Valeria Stephanie Alvarado Alejo",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "CORTESIA",
+            "2": "CORTESIA",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "500"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Diego",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "------------",
+            "2": "--------------",
+            "3": "1000",
+            "5": "1000"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Ian Yael",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "CORTESIA",
+            "2": "--------------",
+            "3": "---------------",
+            "4": "250",
+            "5": "250",
+            "6": "250"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "5",
+      "escuela": "OSOS",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Nelly Prutero Valverde",
+          "tel1": "5611960674",
+          "tel2": "5651347492",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Emili A. CeNa Lozano",
+          "tel1": "5525004219",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Dilan A. Muñiz González",
+          "tel1": "5524912136",
+          "tel2": "5610142424",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Luz M. Velázquez Álvarez",
+          "tel1": "5621376863",
+          "tel2": "5575673074",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Paola Peralta Olivares",
+          "tel1": "5519343796",
+          "tel2": "5550445488",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Mateo I. González Martínez",
+          "tel1": "5573486544",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "320",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "320",
+            "2": "320",
+            "3": "320",
+            "4": "320",
+            "5": "320",
+            "6": "320",
+            "7": "320",
+            "8": "320"
+          }
+        },
+        {
+          "num": "15",
+          "nombre": "Jimena Pre Zuñiga",
+          "tel1": "5585610804",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "-------",
+            "2": "CORTESIA",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "16",
+          "nombre": "Iran Montalvo Paez",
+          "tel1": "5548055913",
+          "tel2": "5534124595",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "-------",
+            "2": "CORTESIA",
+            "4": "700",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "17",
+          "nombre": "Valeska Mailet Moralez Alon",
+          "tel1": "5566709230",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "-------",
+            "2": "---------",
+            "3": "CORTESIA",
+            "4": "250",
+            "5": "250",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Nataly Y. Buendia Hdez",
+          "tel1": "5616555458",
+          "tel2": "5525287315",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "----------",
+            "4": "350",
+            "5": "---"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Allison A. Martinez Corona",
+          "tel1": "5539446038",
+          "tel2": "5648951096",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "David Alfonso",
+          "tel1": "5538241124",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Daniela G. Rivas Rodriguez",
+          "tel1": "5533104514",
+          "tel2": "5647137101",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Isac Y. Lopez Gonzalez",
+          "tel1": "5573486544",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "",
+            "3": "700",
+            "5": "700",
+            "6": "--------",
+            "7": "700"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Alondra Yamileth Almanza",
+          "tel1": "5562241933",
+          "tel2": "5580155142",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Constanza",
+          "tel1": "5541272168",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Nayelly Ramirez Juarez",
+          "tel1": "5574842850",
+          "tel2": "",
+          "inscripcion": "250",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "14",
+          "nombre": "Rafael Ramirez Juarez",
+          "tel1": "5574842850",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "6",
+      "escuela": "OSOS",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": "14",
+          "nombre": "Isabella Hernandez Villegas",
+          "tel1": "5624826106",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "15",
+          "nombre": "Uriel Udarte Pachecho",
+          "tel1": "5618077942",
+          "tel2": "55058954",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "CORTESIA",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "16",
+          "nombre": "Isabel Uzcanga",
+          "tel1": "5656342250",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "CORTESIA",
+            "5": "CORTESIA",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "1",
+          "nombre": "Jesus Y. Altamirano Morales",
+          "tel1": "5656725077",
+          "tel2": "5617685099",
+          "inscripcion": "Debe 300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "7": "700",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Melanny Paulina Montiel Jimenez",
+          "tel1": "5631360959",
+          "tel2": "5549270006",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Sandra G. Castillo Guerrero",
+          "tel1": "5554958210",
+          "tel2": "5638316600",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Fernando",
+          "tel1": "5630550612",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "250",
+            "6": "250",
+            "7": "BAJA",
+            "8": "BAJA"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Hannia Ramirez Suarez",
+          "tel1": "5538534524",
+          "tel2": "5533459197",
+          "inscripcion": "",
+          "tarifa": "320",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "320",
+            "2": "320",
+            "3": "320",
+            "4": "320",
+            "5": "320",
+            "6": "320",
+            "7": "640",
+            "8": "---------"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Frida Ixchel Chavarria Figueroa",
+          "tel1": "5648321068",
+          "tel2": "5586812932",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "0",
+            "2": "0",
+            "3": "500",
+            "4": "PAGADA",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Julieta Chavarria Figueroa",
+          "tel1": "5648321068",
+          "tel2": "5586812932",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "3": "500",
+            "4": "PAGADA",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Maria Fernanda Cameon de la O.",
+          "tel1": "5581801382",
+          "tel2": "5567719521",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "CORTESIA",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Nathan David Escalon",
+          "tel1": "5619614893",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Edgar Santiago Reyes Jimenez",
+          "tel1": "5614844666",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "-------"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Constanza M. Peralta Pliego",
+          "tel1": "5635460348",
+          "tel2": "5618961791",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "200",
+            "4": "200",
+            "5": "200",
+            "6": "200",
+            "8": "150"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Luis Peralta Pliego",
+          "tel1": "5635460348",
+          "tel2": "5618961791",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "200",
+            "4": "200",
+            "5": "200",
+            "6": "200",
+            "8": "150"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Africa B. Perez Gonzalez",
+          "tel1": "5666141403",
+          "tel2": "5567589998",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Jesus D. Buendia Gonzalez",
+          "tel1": "5521267711",
+          "tel2": "5564687765",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "7",
+      "escuela": "AMERICAS",
+      "custodio": "EDUARDO PEREZ",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Amanda Sofia Duran Garcia",
+          "tel1": "5656098723",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Regina Zepeda Gonzalez",
+          "tel1": "5615438664",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Maria Jose Zepeda Gzl",
+          "tel1": "5615438664",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Romina De Jesus Gonzalez",
+          "tel1": "5513887128",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "5": "700",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Jorge Delgado Mtz.",
+          "tel1": "5521722471",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Matias Itzae",
+          "tel1": "5584931039",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Evan Alexander Rodriguez Marquez",
+          "tel1": "5533132583",
+          "tel2": "5545255164",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Ian Yael Ortega Rojas",
+          "tel1": "5559690691",
+          "tel2": "5610534280",
+          "inscripcion": "600",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "250",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Meredeth",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "200",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "N",
+            "6": "200",
+            "7": "250"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Santiago Misael",
+          "tel1": "5517035370",
+          "tel2": "5528516527",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "8": "250"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "8",
+      "escuela": "OSOS",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Mariana Beristan Pascasio",
+          "tel1": "5537325753",
+          "tel2": "5558519102",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "500",
+            "5": "200",
+            "6": "500",
+            "7": "200"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Andres Jesus Velazquez",
+          "tel1": "5534163944",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Jesus Andres Martinez",
+          "tel1": "5522229318",
+          "tel2": "5641137137",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Gretell Natalia Mejia Granados",
+          "tel1": "5529116628",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Kenia Monserrath Hernandez Pineda",
+          "tel1": "5256145826",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Diego Gonzaloz Dias",
+          "tel1": "5516348264",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "400",
+            "3": "500",
+            "4": "200",
+            "5": "500",
+            "6": "200",
+            "7": "350",
+            "8": "2450"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Jose Enrique Sanchez Hernandez",
+          "tel1": "5550513034",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "BJ",
+            "5": "BJ",
+            "6": "BJ",
+            "7": "BJ"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Camila hernandez Alvarez",
+          "tel1": "5580395530",
+          "tel2": "5580324169",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "600",
+            "3": "600",
+            "5": "600",
+            "7": "600"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Eder",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Cristofer Soliz Trejo",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Luis Santiago Buendia Perez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Johana Fernanda Ribas Hernandez",
+          "tel1": "5520033837",
+          "tel2": "5542168942",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "14",
+          "nombre": "Leonardo Espinoza Palma",
+          "tel1": "5561832831",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "700",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "15",
+          "nombre": "Marvin Yaron Santo Rodriguez",
+          "tel1": "9987648131",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "17",
+          "nombre": "Emily Anabel Oropeza Peña",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "18",
+          "nombre": "Alexandra Peralta Gonzalez",
+          "tel1": "5533131590",
+          "tel2": "5516348264",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "19",
+          "nombre": "Jonathan Ruiz Velazquez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "21",
+          "nombre": "Ayelen Romero Alcantara",
+          "tel1": "5625671024",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "22",
+          "nombre": "Fernando Tadeo Ventura Coronel",
+          "tel1": "5525412747",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Sandra Marlen Renteria Tadeo",
+          "tel1": "5613131117",
+          "tel2": "5574350968",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Melany Juliana Carreon",
+          "tel1": "5526588763",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "16",
+          "nombre": "Oscar Jose Hernandez Alvarez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "600",
+            "3": "600",
+            "5": "600",
+            "7": "600"
+          }
+        },
+        {
+          "num": "20",
+          "nombre": "Erick De la Cruz Gonzalez",
+          "tel1": "5627919403",
+          "tel2": "5551244287",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "23",
+          "nombre": "Diego",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {}
+        }
+      ]
+    },
+    {
+      "section_num": "9",
+      "escuela": "OSOS",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": "2",
+          "nombre": "Angel Rosales Galeana",
+          "tel1": "5630265589",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Narella Yoselyn martinez Valencia",
+          "tel1": "5591041583",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Abril Ximena Cruz Gomez",
+          "tel1": "5617902841",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "275",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "275",
+            "2": "275",
+            "3": "275",
+            "4": "275",
+            "5": "275",
+            "6": "275",
+            "7": "275"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Jose Angel Hernandez Andres",
+          "tel1": "5571429289",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Esthefany Abril Campos",
+          "tel1": "5544162342",
+          "tel2": "5579878572",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Yiraldi Cruz Severiano",
+          "tel1": "5567715637",
+          "tel2": "5527571065",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Camila Ines Bautista Perez",
+          "tel1": "5587388590",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Danna Paola Corenel Moreno",
+          "tel1": "5620527747",
+          "tel2": "5540361126",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Jessica Anai Peña Ramirez",
+          "tel1": "5522062705",
+          "tel2": "5624943564",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Arturo Emiliano Bernal Ortiz",
+          "tel1": "5617602546",
+          "tel2": "5546469164",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "BAJA"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Veronica Joselin Bernal Ortiz",
+          "tel1": "5617602546",
+          "tel2": "5546469164",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "BAJA"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Yaretzi Cruz Gomez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "275",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "275",
+            "2": "275",
+            "3": "275",
+            "4": "275",
+            "5": "350",
+            "6": "275",
+            "7": "275"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Alisson Samantha Cruz",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "700",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "14",
+          "nombre": "Sofia Minerva Herrera Martinez",
+          "tel1": "5579413776",
+          "tel2": "5525201632",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "15",
+          "nombre": "Leonardo Montero Hernandez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "350",
+            "5": "700",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "16",
+          "nombre": "Jose Ezequiel Morales Solis",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "CORTESIA",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "1",
+          "nombre": "Zahori Itzel Romero Flores",
+          "tel1": "9541627506",
+          "tel2": "5540433527",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Angelica Nicolet Cortez Morales",
+          "tel1": "5518079997",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "10",
+      "escuela": "MOISES",
+      "custodio": "FERNANDO FABIAN",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Julian Abraham Santana Corona",
+          "tel1": "5626503125",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Ximena Ikal Bustamante Corona",
+          "tel1": "5616252016",
+          "tel2": "5637614212",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Ximenna Martin Avila",
+          "tel1": "5619597408",
+          "tel2": "",
+          "inscripcion": "100",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Mateo Rojas Carbajal",
+          "tel1": "5535576100",
+          "tel2": "5541260752",
+          "inscripcion": "Cortesia",
+          "tarifa": "Cortesia",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "CORTESIA",
+            "4": "CORTESIA",
+            "5": "CORTESIA",
+            "6": "CORTESIA",
+            "7": "CORTESIA"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Maria Fernanda",
+          "tel1": "5547693460",
+          "tel2": "5565866991",
+          "inscripcion": "300",
+          "tarifa": "200",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "200",
+            "3": "200",
+            "4": "200",
+            "5": "200",
+            "6": "200",
+            "7": "200"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Gael",
+          "tel1": "5617670785",
+          "tel2": "5521260836",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "200",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Melany Rojas Avila",
+          "tel1": "5514705576",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Sandra Nicol Arriola Cruz",
+          "tel1": "5646218731",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Melani Hernandez Maldonado",
+          "tel1": "5519056709",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "150",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "BAJA",
+            "3": "BAJA",
+            "4": "BAJA"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Fatima Alondra",
+          "tel1": "5527794367",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "200",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "200",
+            "2": "210",
+            "3": "200",
+            "4": "200",
+            "5": "200",
+            "6": "200",
+            "7": "200"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "sofia Valeria ruiz Mendoz",
+          "tel1": "5588871593",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "550",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Giselle Anahi Salinas Andres",
+          "tel1": "5638203624",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Iker Alexcel Aguilar Tirado",
+          "tel1": "5566372112",
+          "tel2": "5571904455",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "650",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Andrea",
+          "tel1": "5541165534",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "11",
+      "escuela": "OSOS",
+      "custodio": "OSCAR - CAROLINA",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Luz Gabriela Sosa Hernandez",
+          "tel1": "5637791678",
+          "tel2": "5565845648",
+          "inscripcion": "",
+          "tarifa": "320",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "320",
+            "2": "320",
+            "3": "320",
+            "4": "320",
+            "5": "320",
+            "6": "320",
+            "7": "320",
+            "8": "320"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Said Alejandro Sanchez Santiago",
+          "tel1": "5534001410",
+          "tel2": "5558511408",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Alondra Cruz Ponce",
+          "tel1": "5263410640",
+          "tel2": "5520505722",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Abril Cruz Ponce",
+          "tel1": "5263410640",
+          "tel2": "5520505722",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Ximena Said Gonzalez Tepetitla",
+          "tel1": "5634602865",
+          "tel2": "5540208783",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Jade Sujey delgado Garduño",
+          "tel1": "5630324461",
+          "tel2": "5611410008",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Ximena Abundio Escamilla",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Angel Gabriel Cruz Quintero",
+          "tel1": "5656718562",
+          "tel2": "5582145897",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {}
+        },
+        {
+          "num": "11",
+          "nombre": "Regina",
+          "tel1": "1",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "",
+          "abono1": "",
+          "abono2": "200",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "200",
+            "7": "1100",
+            "8": "250"
+          }
+        }
+      ]
+    },
+    {
+      "section_num": "12",
+      "escuela": "OSOS",
+      "custodio": "OSCAR - CAROLINA",
+      "students": [
+        {
+          "num": "1",
+          "nombre": "Ares Torres Guevara",
+          "tel1": "5617026142",
+          "tel2": "5529202064",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Ashley Yoseline Maldonado",
+          "tel1": "5517265110",
+          "tel2": "5651778730",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "3",
+          "nombre": "Mateo Perez Jimenez",
+          "tel1": "5529486359",
+          "tel2": "5576168545",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "Genessis Lopez Nicolas",
+          "tel1": "5584976386",
+          "tel2": "5581054254",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Daniel Ubaldo Reyes",
+          "tel1": "5549125025",
+          "tel2": "5574252610",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "Miriam Itzayana Vazquez Marin",
+          "tel1": "5540469258",
+          "tel2": "5548978748",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "7",
+          "nombre": "Santiago Geronimo Moreno",
+          "tel1": "5530555115",
+          "tel2": "5539801858",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Zuri Hernandez Moguel",
+          "tel1": "5535724819",
+          "tel2": "5542166305",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Emili Natasha Salasar Maderoi",
+          "tel1": "5551118212",
+          "tel2": "5545636509",
+          "inscripcion": "350",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Maria Fernanda Maravilla",
+          "tel1": "5586940951",
+          "tel2": "5551116548",
+          "inscripcion": "150",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "150",
+          "abono3": "",
+          "pagos_semanales": {
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Danna Sofia Torres Lozano",
+          "tel1": "5577572617",
+          "tel2": "56621353736",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Maria Fernanda Dominguez Vargas",
+          "tel1": "5573643083",
+          "tel2": "5529056022",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Yamileth Perez Ruiz",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "150",
+          "tarifa": "",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "8": "250"
+          }
+        }
+      ]
+    }
+  ],
+  "week_labels": [
+    "1 31 Ago- 04 Sep",
+    "2 7 - 11 Sep",
+    "3 14 - 18 Sep",
+    "4 21 - 25 Sep",
+    "5 28 sep - 2 oct",
+    "6 5-9 Oct",
+    "7 12-16 Oct",
+    "8 19-23 Oct",
+    "9 26 - 30 Oct",
+    "10 2-6 Nov",
+    "11 9-13 nov",
+    "12 16-20 nov",
+    "13 23-27 nov",
+    "14 30 nov-4 dic",
+    "15 7-11 dic",
+    "16 14-18 dic",
+    "17 04-08 ene",
+    "18 11-15 ene",
+    "19 18-22 ene",
+    "20 25-29 ene",
+    "21 01-05 feb",
+    "22 08-12 feb",
+    "23 15-19 feb",
+    "24 22-16 Feb",
+    "25 01-05 Mar",
+    "26 08-12 Mar",
+    "27 15-19 Mar",
+    "28 05-09 Abr",
+    "29 12-16 Abr",
+    "30 19-23 Abr",
+    "31 26-30 Abr",
+    "32 03-07 May",
+    "33 10-14 May",
+    "34 17-21May",
+    "35 24-28 May",
+    "36 31 May -04 Jun",
+    "37 07-11 Jun",
+    "38 14-18 Jun",
+    "39 21-25 Jun",
+    "40 28 Jun-02 Jul",
+    "41 05 - 09 Jul",
+    "42 12-16 Jul"
+  ]
+}
