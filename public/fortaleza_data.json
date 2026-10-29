@@ -1,9 +1,9 @@
 {
   "fortaleza_listas": [
     {
-      "section_num": "1",
+      "section_num": 1,
       "escuela": "MINERVA",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "DANIEL CARMEN",
       "students": [
         {
@@ -13,8 +13,10 @@
           "grupo": "A",
           "tel1": "5639193363",
           "tel2": "5547191795",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -23,8 +25,10 @@
           "grupo": "A",
           "tel1": "5629655324",
           "tel2": "5618059363",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -33,8 +37,10 @@
           "grupo": "A",
           "tel1": "5616951221",
           "tel2": "5561197443",
+          "ingreso": "",
           "tarifa": 175,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -43,8 +49,10 @@
           "grupo": "A",
           "tel1": "561695121",
           "tel2": "5561197443",
+          "ingreso": "",
           "tarifa": 175,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -53,15 +61,17 @@
           "grupo": "A",
           "tel1": "5521878123",
           "tel2": "5612718051",
-          "tarifa": null,
-          "inscripcion": ""
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "2",
+      "section_num": 2,
       "escuela": "OSOS",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "DANIEL CARMEN",
       "students": [
         {
@@ -71,8 +81,10 @@
           "grupo": "",
           "tel1": "5521120912",
           "tel2": "5512421564",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PAGADA"
+          "inscripcion": "PAGADA",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -81,8 +93,10 @@
           "grupo": "",
           "tel1": "5662090229",
           "tel2": "5550447285",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -91,8 +105,10 @@
           "grupo": "A",
           "tel1": "5561884906",
           "tel2": "5646173922",
+          "ingreso": "",
           "tarifa": 320,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -101,8 +117,10 @@
           "grupo": "",
           "tel1": "5572728393",
           "tel2": "5528029222",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "Debe 300"
+          "inscripcion": "Debe 300",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -111,8 +129,10 @@
           "grupo": "C",
           "tel1": "5636316080",
           "tel2": "5626576475",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -121,8 +141,10 @@
           "grupo": "F",
           "tel1": "5636316080",
           "tel2": "5626576475",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -131,8 +153,10 @@
           "grupo": "F",
           "tel1": "5549367795",
           "tel2": "5513397984",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -141,8 +165,10 @@
           "grupo": "D",
           "tel1": "5515021061",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -151,6 +177,7 @@
           "grupo": "E",
           "tel1": "5525216211",
           "tel2": "5535644563",
+          "ingreso": "",
           "tarifa": 350,
           "inscripcion": "PADAGA",
           "observaciones": "5568666743"
@@ -158,9 +185,9 @@
       ]
     },
     {
-      "section_num": "3",
+      "section_num": 3,
       "escuela": "OSOS",
-      "turno": "VESP",
+      "turno": "Vespertino",
       "custodio": "DANIEL CARMEN",
       "students": [
         {
@@ -170,8 +197,10 @@
           "grupo": "D",
           "tel1": "5571922127",
           "tel2": "5513319010",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -180,8 +209,10 @@
           "grupo": "C",
           "tel1": "5646546221",
           "tel2": "5951482157",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -190,8 +221,10 @@
           "grupo": "C",
           "tel1": "5648339287",
           "tel2": "5521957852",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -200,8 +233,10 @@
           "grupo": "B",
           "tel1": "5513324212",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -210,8 +245,10 @@
           "grupo": "A",
           "tel1": "5532162288",
           "tel2": "5593084367",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -220,38 +257,46 @@
           "grupo": "F",
           "tel1": "5525050411",
           "tel2": "5567905571",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 7,
-          "nombre": "Juan Jose Garcia Torrez",
+          "nombre": "Juan José García Torrez",
           "grado": "3",
           "grupo": "A",
           "tel1": "5665841676",
           "tel2": "5528889335",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
-          "nombre": "Byron Francisco Lopez Perez",
+          "nombre": "Byron Francisco Lopéz Pérez",
           "grado": "2",
           "grupo": "F",
           "tel1": "5585933230",
           "tel2": "5514452078",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 9,
-          "nombre": "Daniela Hernandez Robles",
+          "nombre": "Daniela Hernández Robles",
           "grado": "1",
           "grupo": "E",
           "tel1": "5568852820",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -260,18 +305,22 @@
           "grupo": "E",
           "tel1": "5564627955",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 11,
-          "nombre": "Tania Danae Martinez Lara",
+          "nombre": "Tania Danae Martínez Lara",
           "grado": "3",
           "grupo": "E",
           "tel1": "5534992178",
           "tel2": "5656107024",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -280,8 +329,10 @@
           "grupo": "D",
           "tel1": "5562329615",
           "tel2": "5560329616",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -290,15 +341,17 @@
           "grupo": "",
           "tel1": "5572930437",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "4",
+      "section_num": 4,
       "escuela": "FEDERICO FROBEL",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
@@ -308,8 +361,10 @@
           "grupo": "A",
           "tel1": "5535198597",
           "tel2": "5535241417",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -318,8 +373,10 @@
           "grupo": "A",
           "tel1": "5620214292",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -328,8 +385,10 @@
           "grupo": "A",
           "tel1": "5649898975",
           "tel2": "5544786509",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -338,8 +397,10 @@
           "grupo": "",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -348,46 +409,54 @@
           "grupo": "",
           "tel1": "5534726158",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "5",
+      "section_num": 5,
       "escuela": "OSOS",
-      "turno": "VESP",
+      "turno": "Vespertino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
           "num": 1,
-          "nombre": "Nelly Prutero Valverde",
+          "nombre": "Nelly Prutero ValVERDE",
           "grado": "1",
           "grupo": "A",
           "tel1": "5611960674",
           "tel2": "5651347492",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 2,
-          "nombre": "Allison A. Martinez Corona",
+          "nombre": "Allison A. Martínez Corona",
           "grado": "2",
           "grupo": "D",
           "tel1": "5539446038",
           "tel2": "5648951096",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
-          "nombre": "Emili A. Cena Lozano",
+          "nombre": "Emili A. CeNa Lozano",
           "grado": "3",
           "grupo": "A",
           "tel1": "5525004219",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -396,28 +465,34 @@
           "grupo": "A",
           "tel1": "5538241124",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 5,
-          "nombre": "Dilan A. Muniz Gonzalez",
+          "nombre": "Dilan A. Muñiz González",
           "grado": "1",
           "grupo": "D",
           "tel1": "5524912136",
           "tel2": "5610142424",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 6,
-          "nombre": "Luz M. Velazquez Alvarez",
+          "nombre": "Luz M. Velázquez Álvarez",
           "grado": "1",
           "grupo": "B",
           "tel1": "5621376863",
           "tel2": "5575673074",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -426,38 +501,46 @@
           "grupo": "C",
           "tel1": "5519343796",
           "tel2": "5550445488",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
-          "nombre": "Mateo I. Gonzalez Martinez",
+          "nombre": "Mateo I. González Martínez",
           "grado": "2",
           "grupo": "C",
           "tel1": "5573486544",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 320,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 9,
-          "nombre": "Daniela G. Rivas Rodriguez",
+          "nombre": "Daniela G. Rivas Rodríguez",
           "grado": "3",
           "grupo": "E",
           "tel1": "5533104514",
           "tel2": "5647137101",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
-          "nombre": "Isac Y. Lopez Gonzalez",
+          "nombre": "Isac Y. López González",
           "grado": "1",
           "grupo": "D",
           "tel1": "5573486544",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 11,
@@ -466,8 +549,10 @@
           "grupo": "F",
           "tel1": "5562241933",
           "tel2": "5580155142",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -476,38 +561,46 @@
           "grupo": "C",
           "tel1": "5541272168",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
-          "nombre": "Nayelly Ramirez Juarez",
+          "nombre": "Nayelly Ramírez Juárez",
           "grado": "3",
           "grupo": "A",
-          "tel1": "5574842850",
+          "tel1": "557484250",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 14,
-          "nombre": "Rafael Ramirez Juarez",
+          "nombre": "Rafael Ramírez Juárez",
           "grado": "1",
           "grupo": "E",
           "tel1": "5574842850",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 15,
-          "nombre": "Jimena Perez Zuniga",
+          "nombre": "Jimena Perez ZuñIga",
           "grado": "1",
           "grupo": "F",
           "tel1": "5585610804",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 16,
@@ -516,8 +609,10 @@
           "grupo": "B",
           "tel1": "5548055913",
           "tel2": "5534124595",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 17,
@@ -526,36 +621,42 @@
           "grupo": "B",
           "tel1": "5566709230",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "6",
+      "section_num": 6,
       "escuela": "OSOS",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
           "num": 1,
-          "nombre": "Jesus Y. Altamirano Morales",
+          "nombre": "Jesus  y. Altamirano Morales",
           "grado": "1",
           "grupo": "",
           "tel1": "5656725077",
           "tel2": "5617685099",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
-          "nombre": "Melanny Paulina Montiel Jimenez",
+          "nombre": "Melanny Paulina Montiel Jiménez",
           "grado": "1",
           "grupo": "",
           "tel1": "5631360959",
           "tel2": "5549270006",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -564,28 +665,34 @@
           "grupo": "",
           "tel1": "5554958210",
           "tel2": "5638316600",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
-          "nombre": "Hannia Ramirez Suarez",
+          "nombre": "Hannia Ramírez Suárez",
           "grado": "3",
           "grupo": "",
           "tel1": "5538534524",
           "tel2": "5533459197",
+          "ingreso": "",
           "tarifa": 320,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 5,
-          "nombre": "Frida Ixchel Chavarria Figueroa",
+          "nombre": "Frida Ixchel Chavarría Figueroa",
           "grado": "3",
           "grupo": "",
           "tel1": "5648321068",
           "tel2": "5586812932",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -594,8 +701,10 @@
           "grupo": "",
           "tel1": "5648321068",
           "tel2": "5586812932",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -604,8 +713,10 @@
           "grupo": "",
           "tel1": "5581801382",
           "tel2": "5567719521",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -614,8 +725,10 @@
           "grupo": "",
           "tel1": "5619614893",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -624,8 +737,10 @@
           "grupo": "",
           "tel1": "5614844666",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -634,8 +749,10 @@
           "grupo": "",
           "tel1": "5635460348",
           "tel2": "5618961791",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 11,
@@ -644,18 +761,22 @@
           "grupo": "",
           "tel1": "5635460348",
           "tel2": "5618961791",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 12,
-          "nombre": "Africa B. Perez Gonzalez",
+          "nombre": "Africa B. Perez Gonzale",
           "grado": "2",
           "grupo": "",
           "tel1": "5666141403",
           "tel2": "5567589998",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -664,8 +785,10 @@
           "grupo": "",
           "tel1": "5521267711",
           "tel2": "5564687765",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 14,
@@ -674,8 +797,10 @@
           "grupo": "B",
           "tel1": "5624826106",
           "tel2": "5629758475",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 15,
@@ -684,8 +809,10 @@
           "grupo": "F",
           "tel1": "5618077942",
           "tel2": "55058954",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 16,
@@ -694,15 +821,17 @@
           "grupo": "",
           "tel1": "5656342250",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "7",
+      "section_num": 7,
       "escuela": "AMERICAS",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
@@ -712,8 +841,10 @@
           "grupo": "A",
           "tel1": "5656098723",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -722,8 +853,10 @@
           "grupo": "A",
           "tel1": "5615438664",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -732,8 +865,10 @@
           "grupo": "A",
           "tel1": "5615438664",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -742,18 +877,22 @@
           "grupo": "A",
           "tel1": "5513887128",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PAGADA"
+          "inscripcion": "PAGADA",
+          "observaciones": ""
         },
         {
           "num": 5,
-          "nombre": "Jorge Delgado Mtz.",
+          "nombre": "Jorge  Delgado Mtz.",
           "grado": "",
           "grupo": "",
           "tel1": "5521722471",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -762,8 +901,10 @@
           "grupo": "",
           "tel1": "5559690691",
           "tel2": "5610534280",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PAGADA"
+          "inscripcion": "PAGADA",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -772,8 +913,10 @@
           "grupo": "",
           "tel1": "5584931039",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -782,8 +925,10 @@
           "grupo": "A",
           "tel1": "5533132583",
           "tel2": "5545255164",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -792,15 +937,17 @@
           "grupo": "A",
           "tel1": "5517035370",
           "tel2": "5528516527",
-          "tarifa": null,
-          "inscripcion": "PAGADA"
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "PAGADA",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "8",
+      "section_num": 8,
       "escuela": "OSOS",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "FERNANDO FABIAN",
       "students": [
         {
@@ -810,8 +957,10 @@
           "grupo": "D",
           "tel1": "5537325753",
           "tel2": "5558519102",
+          "ingreso": "",
           "tarifa": 320,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -820,8 +969,10 @@
           "grupo": "A",
           "tel1": "5613131117",
           "tel2": "5574350968",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -830,8 +981,10 @@
           "grupo": "A",
           "tel1": "5534163944",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -840,8 +993,10 @@
           "grupo": "D",
           "tel1": "5522229318",
           "tel2": "5641137137",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -850,8 +1005,10 @@
           "grupo": "F",
           "tel1": "5529116628",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -860,8 +1017,10 @@
           "grupo": "A",
           "tel1": "5256145826",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -870,8 +1029,10 @@
           "grupo": "",
           "tel1": "5516348264",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -880,18 +1041,22 @@
           "grupo": "D",
           "tel1": "5526588763",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 9,
-          "nombre": "Camila Hernandez Alvarez",
+          "nombre": "Camila hernandez Alvarez",
           "grado": "3",
           "grupo": "A",
           "tel1": "5580395530",
           "tel2": "5580324169",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -900,8 +1065,10 @@
           "grupo": "",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 11,
@@ -910,8 +1077,10 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -920,8 +1089,10 @@
           "grupo": "D",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -930,8 +1101,10 @@
           "grupo": "F",
           "tel1": "5520033837",
           "tel2": "5542168942",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 14,
@@ -940,8 +1113,10 @@
           "grupo": "C",
           "tel1": "5561832831",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 15,
@@ -950,8 +1125,10 @@
           "grupo": "C",
           "tel1": "9987648131",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 16,
@@ -960,18 +1137,22 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 300,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 17,
-          "nombre": "Emily Anabel Oropeza Pena",
+          "nombre": "Emily Anabel Oropeza Peña",
           "grado": "1",
           "grupo": "A",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 18,
@@ -980,8 +1161,10 @@
           "grupo": "D",
           "tel1": "5533131590",
           "tel2": "5516348264",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 19,
@@ -990,8 +1173,10 @@
           "grupo": "A",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 20,
@@ -1000,8 +1185,10 @@
           "grupo": "E",
           "tel1": "5627919403",
           "tel2": "5551244287",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 21,
@@ -1010,8 +1197,10 @@
           "grupo": "A",
           "tel1": "5625671024",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 22,
@@ -1020,8 +1209,10 @@
           "grupo": "F",
           "tel1": "5525412747",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 23,
@@ -1030,15 +1221,17 @@
           "grupo": "",
           "tel1": "",
           "tel2": "",
-          "tarifa": null,
-          "inscripcion": ""
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "9",
+      "section_num": 9,
       "escuela": "OSOS",
-      "turno": "VESP",
+      "turno": "Vespertino",
       "custodio": "FERNANDO FABIAN",
       "students": [
         {
@@ -1048,8 +1241,10 @@
           "grupo": "B",
           "tel1": "9541627506",
           "tel2": "5540433527",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -1058,18 +1253,22 @@
           "grupo": "C",
           "tel1": "5630265589",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
-          "nombre": "Narella Yoselyn Martinez Valencia",
+          "nombre": "Narella Yoselyn martinez Valencia",
           "grado": "1",
           "grupo": "C",
           "tel1": "5591041583",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -1078,8 +1277,10 @@
           "grupo": "A",
           "tel1": "5617902841",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 275,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -1088,8 +1289,10 @@
           "grupo": "F",
           "tel1": "5571429289",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -1098,8 +1301,10 @@
           "grupo": "F",
           "tel1": "5518079997",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -1108,8 +1313,10 @@
           "grupo": "E",
           "tel1": "5544162342",
           "tel2": "5579878572",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -1118,8 +1325,10 @@
           "grupo": "E",
           "tel1": "5567715637",
           "tel2": "5527571065",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -1128,8 +1337,10 @@
           "grupo": "C",
           "tel1": "5587388590",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -1138,18 +1349,22 @@
           "grupo": "D",
           "tel1": "5620527747",
           "tel2": "5540361126",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 11,
-          "nombre": "Jessica Anai Pena Ramirez",
+          "nombre": "Jessica Anai Peña Ramirez",
           "grado": "1",
           "grupo": "D",
           "tel1": "5522062705",
           "tel2": "5624943564",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -1158,8 +1373,10 @@
           "grupo": "B",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 275,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -1168,8 +1385,10 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 14,
@@ -1178,8 +1397,10 @@
           "grupo": "D",
           "tel1": "5579413776",
           "tel2": "5525201632",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 15,
@@ -1188,8 +1409,10 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
-          "tarifa": null,
-          "inscripcion": ""
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 16,
@@ -1198,15 +1421,17 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
-          "tarifa": null,
-          "inscripcion": ""
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "10",
+      "section_num": 10,
       "escuela": "MOISES",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "FERNANDO FABIAN",
       "students": [
         {
@@ -1216,8 +1441,10 @@
           "grupo": "",
           "tel1": "5626503125",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -1226,8 +1453,10 @@
           "grupo": "A",
           "tel1": "5616252016",
           "tel2": "5637614212",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -1236,8 +1465,10 @@
           "grupo": "A",
           "tel1": "5619597408",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -1246,8 +1477,10 @@
           "grupo": "A",
           "tel1": "5535576100",
           "tel2": "5541260752",
-          "tarifa": "Cortesia",
-          "inscripcion": "Cortesia"
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "Cortesia",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -1256,8 +1489,10 @@
           "grupo": "A",
           "tel1": "5547693460",
           "tel2": "5565866991",
+          "ingreso": "",
           "tarifa": 200,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -1266,8 +1501,10 @@
           "grupo": "A",
           "tel1": "5617670785",
           "tel2": "5521260836",
+          "ingreso": "",
           "tarifa": 300,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -1276,8 +1513,10 @@
           "grupo": "A",
           "tel1": "5514705576",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -1286,8 +1525,10 @@
           "grupo": "B",
           "tel1": "5646218731",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -1296,8 +1537,10 @@
           "grupo": "A",
           "tel1": "5541165534",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 300,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -1306,18 +1549,22 @@
           "grupo": "A",
           "tel1": "5527794367",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 200,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 11,
-          "nombre": "Sofia Valeria Ruiz Mendoz",
+          "nombre": "sofia Valeria ruiz Mendoz",
           "grado": "4",
           "grupo": "D",
           "tel1": "5588871593",
           "tel2": "5627052010",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -1326,8 +1573,10 @@
           "grupo": "A",
           "tel1": "5638203624",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -1336,15 +1585,17 @@
           "grupo": "A",
           "tel1": "5566372112",
           "tel2": "5571904455",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "11",
+      "section_num": 11,
       "escuela": "OSOS",
-      "turno": "MAT",
+      "turno": "Matutino",
       "custodio": "OSCAR - CAROLINA",
       "students": [
         {
@@ -1354,8 +1605,10 @@
           "grupo": "D",
           "tel1": "5637791678",
           "tel2": "5565845648",
+          "ingreso": "",
           "tarifa": 320,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -1364,8 +1617,10 @@
           "grupo": "C",
           "tel1": "5534001410",
           "tel2": "5558511408",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -1374,8 +1629,10 @@
           "grupo": "",
           "tel1": "5263410640",
           "tel2": "5520505722",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -1384,8 +1641,10 @@
           "grupo": "A",
           "tel1": "5263410640",
           "tel2": "5520505722",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -1394,18 +1653,22 @@
           "grupo": "E",
           "tel1": "5634602865",
           "tel2": "5540208783",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
-          "nombre": "Jade Sujey Delgado Garduno",
+          "nombre": "Jade Sujey delgado Garduño",
           "grado": "2",
           "grupo": "C",
           "tel1": "5630324461",
           "tel2": "5611410008",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -1414,8 +1677,10 @@
           "grupo": "F",
           "tel1": "",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -1424,6 +1689,7 @@
           "grupo": "B",
           "tel1": "5574618537",
           "tel2": "5558532928",
+          "ingreso": "",
           "tarifa": 250,
           "inscripcion": "PADAGA",
           "observaciones": "salida"
@@ -1435,8 +1701,10 @@
           "grupo": "B",
           "tel1": "5536795030",
           "tel2": "5619673413",
+          "ingreso": "",
           "tarifa": 300,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 11,
@@ -1445,8 +1713,10 @@
           "grupo": "E",
           "tel1": "5539760521",
           "tel2": "5626483719",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -1455,15 +1725,17 @@
           "grupo": "D",
           "tel1": "5624248899",
           "tel2": "5572725677",
+          "ingreso": "",
           "tarifa": 200,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     },
     {
-      "section_num": "12",
+      "section_num": 12,
       "escuela": "OSOS",
-      "turno": "VESP",
+      "turno": "Vespertino",
       "custodio": "OSCAR - CAROLINA",
       "students": [
         {
@@ -1473,8 +1745,10 @@
           "grupo": "",
           "tel1": "5617026142",
           "tel2": "5529202064",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 2,
@@ -1483,8 +1757,10 @@
           "grupo": "C",
           "tel1": "5517265110",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 3,
@@ -1493,8 +1769,10 @@
           "grupo": "F",
           "tel1": "5529486359",
           "tel2": "5576168545",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 4,
@@ -1503,8 +1781,10 @@
           "grupo": "E",
           "tel1": "5584976386",
           "tel2": "5581054254",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 5,
@@ -1513,8 +1793,10 @@
           "grupo": "D",
           "tel1": "5549125025",
           "tel2": "5574252610",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 6,
@@ -1523,8 +1805,10 @@
           "grupo": "A",
           "tel1": "5540469258",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 7,
@@ -1533,8 +1817,10 @@
           "grupo": "A",
           "tel1": "5530555115",
           "tel2": "5539801858",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 8,
@@ -1543,8 +1829,10 @@
           "grupo": "F",
           "tel1": "5573643083",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 9,
@@ -1553,8 +1841,10 @@
           "grupo": "F",
           "tel1": "5535724819",
           "tel2": "",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 10,
@@ -1563,8 +1853,10 @@
           "grupo": "B",
           "tel1": "5551118212",
           "tel2": "5545636509",
+          "ingreso": "",
           "tarifa": 250,
-          "inscripcion": "PADAGA"
+          "inscripcion": "PADAGA",
+          "observaciones": ""
         },
         {
           "num": 11,
@@ -1573,8 +1865,10 @@
           "grupo": "A",
           "tel1": "5586940951",
           "tel2": "5551116548",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": "150"
+          "inscripcion": "150",
+          "observaciones": ""
         },
         {
           "num": 12,
@@ -1583,8 +1877,10 @@
           "grupo": "B",
           "tel1": "5577572617",
           "tel2": "56621353736",
+          "ingreso": "",
           "tarifa": 350,
-          "inscripcion": ""
+          "inscripcion": "",
+          "observaciones": ""
         },
         {
           "num": 13,
@@ -1593,16 +1889,19 @@
           "grupo": "D",
           "tel1": "",
           "tel2": "",
-          "tarifa": null,
-          "inscripcion": ""
+          "ingreso": "",
+          "tarifa": 0,
+          "inscripcion": "",
+          "observaciones": ""
         }
       ]
     }
   ],
   "pago_semanal_fortaleza": [
     {
-      "section_num": "1",
+      "section_num": 1,
       "escuela": "MINERVA",
+      "turno": "Matutino",
       "custodio": "DANIEL CARMEN",
       "students": [
         {
@@ -1705,10 +2004,53 @@
       ]
     },
     {
-      "section_num": "2",
+      "section_num": 2,
       "escuela": "OSOS",
+      "turno": "Matutino",
       "custodio": "DANIEL CARMEN",
       "students": [
+        {
+          "num": "1",
+          "nombre": "Katheryne N. Sanchez Armenta",
+          "tel1": "5521120912",
+          "tel2": "5512421564",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "24 SEPT - $300",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Jose de Jesus Castillo",
+          "tel1": "5662090229",
+          "tel2": "5550447285",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
         {
           "num": "3",
           "nombre": "Tadeo said Diaz",
@@ -1728,12 +2070,54 @@
           }
         },
         {
+          "num": "4",
+          "nombre": "Said E. Jimenez",
+          "tel1": "5572728393",
+          "tel2": "5528029222",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "Debe 300",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "320",
+            "2": "320",
+            "3": "320",
+            "4": "320",
+            "5": "320",
+            "6": "320",
+            "7": "320",
+            "8": "320"
+          }
+        },
+        {
           "num": "5",
           "nombre": "Ariadna Naomi Ramirez",
           "tel1": "5636316080",
           "tel2": "5626576475",
           "inscripcion": "300",
           "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300",
+            "8": "300"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Caleb Azael Ramirez",
+          "tel1": "5636316080",
+          "tel2": "5626576475",
+          "inscripcion": "300",
+          "tarifa": "300",
           "abono1": "",
           "abono2": "",
           "abono3": "",
@@ -1810,15 +2194,23 @@
             "7": "250",
             "8": "650"
           }
-        },
+        }
+      ]
+    },
+    {
+      "section_num": 3,
+      "escuela": "OSOS",
+      "turno": "Vespertino",
+      "custodio": "DANIEL CARMEN",
+      "students": [
         {
           "num": "1",
-          "nombre": "Katheryne N. Sanchez Armenta",
-          "tel1": "5521120912",
-          "tel2": "5512421564",
+          "nombre": "Mario Cristobal Gonzalez Buen dia",
+          "tel1": "5571922127",
+          "tel2": "5513319010",
           "inscripcion": "300",
           "tarifa": "350",
-          "abono1": "24 SEPT - $300",
+          "abono1": "",
           "abono2": "",
           "abono3": "",
           "pagos_semanales": {
@@ -1834,79 +2226,9 @@
         },
         {
           "num": "2",
-          "nombre": "Jose de Jesus Castillo",
-          "tel1": "5662090229",
-          "tel2": "5550447285",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "4",
-          "nombre": "Said E. Jimenez",
-          "tel1": "5572728393",
-          "tel2": "5528029222",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "Debe 300",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "320",
-            "2": "320",
-            "3": "320",
-            "4": "320",
-            "5": "320",
-            "6": "320",
-            "7": "320",
-            "8": "320"
-          }
-        },
-        {
-          "num": "6",
-          "nombre": "Caleb Azael Ramirez",
-          "tel1": "5636316080",
-          "tel2": "5626576475",
-          "inscripcion": "300",
-          "tarifa": "300",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "300",
-            "2": "300",
-            "3": "300",
-            "4": "300",
-            "5": "300",
-            "6": "300",
-            "7": "300",
-            "8": "300"
-          }
-        }
-      ]
-    },
-    {
-      "section_num": "3",
-      "escuela": "OSOS",
-      "custodio": "DANIEL CARMEN",
-      "students": [
-        {
-          "num": "1",
-          "nombre": "Mario Cristobal Gonzalez Buen dia",
-          "tel1": "5571922127",
-          "tel2": "5513319010",
+          "nombre": "Dania Sophia Morales Arias",
+          "tel1": "5646546221",
+          "tel2": "5951482157",
           "inscripcion": "300",
           "tarifa": "350",
           "abono1": "",
@@ -1949,6 +2271,27 @@
           "nombre": "Yatziry Danae Carmona Perez",
           "tel1": "5513324212",
           "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "5",
+          "nombre": "Mileny Alejandra Arias Alarcon",
+          "tel1": "5532162288",
+          "tel2": "5593084367",
           "inscripcion": "300",
           "tarifa": "350",
           "abono1": "",
@@ -2108,48 +2451,6 @@
           }
         },
         {
-          "num": "2",
-          "nombre": "Dania Sophia Morales Arias",
-          "tel1": "5646546221",
-          "tel2": "5951482157",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "5",
-          "nombre": "Mileny Alejandra Arias Alarcon",
-          "tel1": "5532162288",
-          "tel2": "5593084367",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
           "num": "13",
           "nombre": "Valeria",
           "tel1": "",
@@ -2168,8 +2469,9 @@
       ]
     },
     {
-      "section_num": "4",
+      "section_num": 4,
       "escuela": "FEDERICO FROBEL",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
@@ -2214,6 +2516,25 @@
           }
         },
         {
+          "num": "3",
+          "nombre": "Ian Yael",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "CORTESIA",
+            "2": "--------------",
+            "3": "---------------",
+            "4": "250",
+            "5": "250",
+            "6": "250"
+          }
+        },
+        {
           "num": "4",
           "nombre": "Valeria Stephanie Alvarado Alejo",
           "tel1": "",
@@ -2250,31 +2571,13 @@
             "3": "1000",
             "5": "1000"
           }
-        },
-        {
-          "num": "3",
-          "nombre": "Ian Yael",
-          "tel1": "",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "250",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "CORTESIA",
-            "2": "--------------",
-            "3": "---------------",
-            "4": "250",
-            "5": "250",
-            "6": "250"
-          }
         }
       ]
     },
     {
-      "section_num": "5",
+      "section_num": 5,
       "escuela": "OSOS",
+      "turno": "Vespertino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
@@ -2299,9 +2602,69 @@
           }
         },
         {
+          "num": "",
+          "nombre": "Nataly Y. Buendía Hdez",
+          "tel1": "5616555458",
+          "tel2": "5525287315",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "----------",
+            "4": "350",
+            "5": "---"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Allison A. Martínez Corona",
+          "tel1": "5539446038",
+          "tel2": "5648951096",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
           "num": "3",
           "nombre": "Emili A. CeNa Lozano",
           "tel1": "5525004219",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "4",
+          "nombre": "David Alfonso",
+          "tel1": "5538241124",
           "tel2": "",
           "inscripcion": "300",
           "tarifa": "350",
@@ -2404,6 +2767,129 @@
           }
         },
         {
+          "num": "9",
+          "nombre": "Daniela G. Rivas Rodríguez",
+          "tel1": "5533104514",
+          "tel2": "5647137101",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "10",
+          "nombre": "Isac Y. López González",
+          "tel1": "5573486544",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "3": "700",
+            "5": "700",
+            "6": "--------",
+            "7": "700"
+          }
+        },
+        {
+          "num": "11",
+          "nombre": "Alondra Yamileth Almanza",
+          "tel1": "5562241933",
+          "tel2": "5580155142",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "12",
+          "nombre": "Constanza",
+          "tel1": "5541272168",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "13",
+          "nombre": "Nayelly Ramírez Juárez",
+          "tel1": "557484250",
+          "tel2": "",
+          "inscripcion": "250",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "14",
+          "nombre": "Ramírez Juárez",
+          "tel1": "5574842850",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
           "num": "15",
           "nombre": "Jimena Pre Zuñiga",
           "tel1": "5585610804",
@@ -2467,254 +2953,27 @@
         },
         {
           "num": "",
-          "nombre": "Nataly Y. Buendia Hdez",
-          "tel1": "5616555458",
-          "tel2": "5525287315",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "----------",
-            "4": "350",
-            "5": "---"
-          }
-        },
-        {
-          "num": "2",
-          "nombre": "Allison A. Martinez Corona",
-          "tel1": "5539446038",
-          "tel2": "5648951096",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "4",
-          "nombre": "David Alfonso",
-          "tel1": "5538241124",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "9",
-          "nombre": "Daniela G. Rivas Rodriguez",
-          "tel1": "5533104514",
-          "tel2": "5647137101",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "10",
-          "nombre": "Isac Y. Lopez Gonzalez",
-          "tel1": "5573486544",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "",
-            "3": "700",
-            "5": "700",
-            "6": "--------",
-            "7": "700"
-          }
-        },
-        {
-          "num": "11",
-          "nombre": "Alondra Yamileth Almanza",
-          "tel1": "5562241933",
-          "tel2": "5580155142",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "12",
-          "nombre": "Constanza",
-          "tel1": "5541272168",
+          "nombre": "TURNO: MATINO",
+          "tel1": "",
           "tel2": "",
           "inscripcion": "",
-          "tarifa": "350",
+          "tarifa": "",
           "abono1": "",
           "abono2": "",
           "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "13",
-          "nombre": "Nayelly Ramirez Juarez",
-          "tel1": "5574842850",
-          "tel2": "",
-          "inscripcion": "250",
-          "tarifa": "250",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "250",
-            "2": "250",
-            "3": "250",
-            "4": "250",
-            "5": "250",
-            "6": "250",
-            "7": "250",
-            "8": "250"
-          }
-        },
-        {
-          "num": "14",
-          "nombre": "Rafael Ramirez Juarez",
-          "tel1": "5574842850",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "250",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "250",
-            "2": "250",
-            "3": "250",
-            "4": "250",
-            "5": "250",
-            "6": "250",
-            "7": "250",
-            "8": "250"
-          }
+          "pagos_semanales": {}
         }
       ]
     },
     {
-      "section_num": "6",
+      "section_num": 6,
       "escuela": "OSOS",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
-          "num": "14",
-          "nombre": "Isabella Hernandez Villegas",
-          "tel1": "5624826106",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "2": "CORTESIA",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "15",
-          "nombre": "Uriel Udarte Pachecho",
-          "tel1": "5618077942",
-          "tel2": "55058954",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "4": "CORTESIA",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
-          "num": "16",
-          "nombre": "Isabel Uzcanga",
-          "tel1": "5656342250",
-          "tel2": "",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "4": "CORTESIA",
-            "5": "CORTESIA",
-            "6": "250",
-            "7": "250",
-            "8": "250"
-          }
-        },
-        {
           "num": "1",
-          "nombre": "Jesus Y. Altamirano Morales",
+          "nombre": "Jesus  y. Altamirano Morales",
           "tel1": "5656725077",
           "tel2": "5617685099",
           "inscripcion": "Debe 300",
@@ -2734,7 +2993,7 @@
         },
         {
           "num": "2",
-          "nombre": "Melanny Paulina Montiel Jimenez",
+          "nombre": "Melanny Paulina Montiel Jiménez",
           "tel1": "5631360959",
           "tel2": "5549270006",
           "inscripcion": "300",
@@ -2797,7 +3056,7 @@
         },
         {
           "num": "4",
-          "nombre": "Hannia Ramirez Suarez",
+          "nombre": "Hannia Ramírez Suárez",
           "tel1": "5538534524",
           "tel2": "5533459197",
           "inscripcion": "",
@@ -2818,7 +3077,7 @@
         },
         {
           "num": "5",
-          "nombre": "Frida Ixchel Chavarria Figueroa",
+          "nombre": "Frida Ixchel Chavarría Figueroa",
           "tel1": "5648321068",
           "tel2": "5586812932",
           "inscripcion": "",
@@ -2827,8 +3086,6 @@
           "abono2": "",
           "abono3": "",
           "pagos_semanales": {
-            "1": "0",
-            "2": "0",
             "3": "500",
             "4": "PAGADA",
             "5": "250",
@@ -2961,7 +3218,7 @@
         },
         {
           "num": "12",
-          "nombre": "Africa B. Perez Gonzalez",
+          "nombre": "Africa B. Perez Gonzale",
           "tel1": "5666141403",
           "tel2": "5567589998",
           "inscripcion": "",
@@ -3000,12 +3257,81 @@
             "7": "350",
             "8": "350"
           }
+        },
+        {
+          "num": "14",
+          "nombre": "Isabella Hernandez Villegas",
+          "tel1": "5624826106",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "15",
+          "nombre": "Uriel Udarte Pachecho",
+          "tel1": "5618077942",
+          "tel2": "55058954",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "CORTESIA",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "16",
+          "nombre": "Isabel Uzcanga",
+          "tel1": "5656342250",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "CORTESIA",
+            "5": "CORTESIA",
+            "6": "250",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "",
+          "nombre": "TURNO: MATINO",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {}
         }
       ]
     },
     {
-      "section_num": "7",
+      "section_num": 7,
       "escuela": "AMERICAS",
+      "turno": "Matutino",
       "custodio": "EDUARDO PEREZ",
       "students": [
         {
@@ -3090,7 +3416,7 @@
         },
         {
           "num": "5",
-          "nombre": "Jorge Delgado Mtz.",
+          "nombre": "Jorge  Delgado Mtz.",
           "tel1": "5521722471",
           "tel2": "",
           "inscripcion": "",
@@ -3105,6 +3431,26 @@
             "4": "350",
             "5": "350",
             "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Ian Yael Ortega Rojas",
+          "tel1": "5559690691",
+          "tel2": "5610534280",
+          "inscripcion": "600",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "250",
             "7": "350",
             "8": "350"
           }
@@ -3146,26 +3492,6 @@
           }
         },
         {
-          "num": "6",
-          "nombre": "Ian Yael Ortega Rojas",
-          "tel1": "5559690691",
-          "tel2": "5610534280",
-          "inscripcion": "600",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "2": "CORTESIA",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "250",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
           "num": "9",
           "nombre": "Meredeth",
           "tel1": "",
@@ -3198,8 +3524,9 @@
       ]
     },
     {
-      "section_num": "8",
+      "section_num": 8,
       "escuela": "OSOS",
+      "turno": "Matutino",
       "custodio": "FERNANDO FABIAN",
       "students": [
         {
@@ -3220,6 +3547,26 @@
             "5": "200",
             "6": "500",
             "7": "200"
+          }
+        },
+        {
+          "num": "2",
+          "nombre": "Sandra Marlen Renteria Tadeo",
+          "tel1": "5613131117",
+          "tel2": "5574350968",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
           }
         },
         {
@@ -3341,6 +3688,26 @@
             "5": "BJ",
             "6": "BJ",
             "7": "BJ"
+          }
+        },
+        {
+          "num": "8",
+          "nombre": "Melany Juliana Carreon",
+          "tel1": "5526588763",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
           }
         },
         {
@@ -3480,6 +3847,23 @@
           }
         },
         {
+          "num": "16",
+          "nombre": "Oscar Jose Hernandez Alvarez",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "600",
+            "3": "600",
+            "5": "600",
+            "7": "600"
+          }
+        },
+        {
           "num": "17",
           "nombre": "Emily Anabel Oropeza Peña",
           "tel1": "",
@@ -3540,6 +3924,25 @@
           }
         },
         {
+          "num": "20",
+          "nombre": "Erick De la Cruz Gonzalez",
+          "tel1": "5627919403",
+          "tel2": "5551244287",
+          "inscripcion": "",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "2": "CORTESIA",
+            "3": "250",
+            "4": "250",
+            "5": "250",
+            "6": "250",
+            "7": "250"
+          }
+        },
+        {
           "num": "21",
           "nombre": "Ayelen Romero Alcantara",
           "tel1": "5625671024",
@@ -3572,82 +3975,6 @@
           }
         },
         {
-          "num": "2",
-          "nombre": "Sandra Marlen Renteria Tadeo",
-          "tel1": "5613131117",
-          "tel2": "5574350968",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350"
-          }
-        },
-        {
-          "num": "8",
-          "nombre": "Melany Juliana Carreon",
-          "tel1": "5526588763",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350"
-          }
-        },
-        {
-          "num": "16",
-          "nombre": "Oscar Jose Hernandez Alvarez",
-          "tel1": "",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "300",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "600",
-            "3": "600",
-            "5": "600",
-            "7": "600"
-          }
-        },
-        {
-          "num": "20",
-          "nombre": "Erick De la Cruz Gonzalez",
-          "tel1": "5627919403",
-          "tel2": "5551244287",
-          "inscripcion": "",
-          "tarifa": "250",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "2": "CORTESIA",
-            "3": "250",
-            "4": "250",
-            "5": "250",
-            "6": "250",
-            "7": "250"
-          }
-        },
-        {
           "num": "23",
           "nombre": "Diego",
           "tel1": "",
@@ -3662,10 +3989,31 @@
       ]
     },
     {
-      "section_num": "9",
+      "section_num": 9,
       "escuela": "OSOS",
+      "turno": "Vespertino",
       "custodio": "FERNANDO FABIAN",
       "students": [
+        {
+          "num": "1",
+          "nombre": "Zahori Itzel Romero Flores",
+          "tel1": "9541627506",
+          "tel2": "5540433527",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
         {
           "num": "2",
           "nombre": "Angel Rosales Galeana",
@@ -3730,6 +4078,26 @@
           "num": "5",
           "nombre": "Jose Angel Hernandez Andres",
           "tel1": "5571429289",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350"
+          }
+        },
+        {
+          "num": "6",
+          "nombre": "Angelica Nicolet Cortez Morales",
+          "tel1": "5518079997",
           "tel2": "",
           "inscripcion": "",
           "tarifa": "350",
@@ -3970,52 +4338,13 @@
             "6": "350",
             "7": "350"
           }
-        },
-        {
-          "num": "1",
-          "nombre": "Zahori Itzel Romero Flores",
-          "tel1": "9541627506",
-          "tel2": "5540433527",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350"
-          }
-        },
-        {
-          "num": "6",
-          "nombre": "Angelica Nicolet Cortez Morales",
-          "tel1": "5518079997",
-          "tel2": "",
-          "inscripcion": "",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350"
-          }
         }
       ]
     },
     {
-      "section_num": "10",
+      "section_num": 10,
       "escuela": "MOISES",
+      "turno": "Matutino",
       "custodio": "FERNANDO FABIAN",
       "students": [
         {
@@ -4178,6 +4507,26 @@
           }
         },
         {
+          "num": "9",
+          "nombre": "Andrea",
+          "tel1": "5541165534",
+          "tel2": "",
+          "inscripcion": "300",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "300",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300"
+          }
+        },
+        {
           "num": "",
           "nombre": "Melani Hernandez Maldonado",
           "tel1": "5519056709",
@@ -4270,32 +4619,13 @@
             "6": "350",
             "7": "350"
           }
-        },
-        {
-          "num": "9",
-          "nombre": "Andrea",
-          "tel1": "5541165534",
-          "tel2": "",
-          "inscripcion": "300",
-          "tarifa": "300",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "300",
-            "2": "300",
-            "3": "300",
-            "4": "300",
-            "5": "300",
-            "6": "300",
-            "7": "300"
-          }
         }
       ]
     },
     {
-      "section_num": "11",
+      "section_num": 11,
       "escuela": "OSOS",
+      "turno": "Matutino",
       "custodio": "OSCAR - CAROLINA",
       "students": [
         {
@@ -4446,6 +4776,47 @@
           }
         },
         {
+          "num": "8",
+          "nombre": "Sofia Danae Cuevas Galicia",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "350",
+          "tarifa": "250",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "250",
+            "2": "250",
+            "3": "250",
+            "4": "250",
+            "6": "500",
+            "7": "250",
+            "8": "250"
+          }
+        },
+        {
+          "num": "9",
+          "nombre": "Ximena Fernanda Tamera",
+          "tel1": "",
+          "tel2": "",
+          "inscripcion": "",
+          "tarifa": "300",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "---",
+            "2": "300",
+            "3": "300",
+            "4": "300",
+            "5": "300",
+            "6": "300",
+            "7": "300",
+            "8": "300"
+          }
+        },
+        {
           "num": "",
           "nombre": "Angel Gabriel Cruz Quintero",
           "tel1": "5656718562",
@@ -4456,6 +4827,24 @@
           "abono2": "",
           "abono3": "",
           "pagos_semanales": {}
+        },
+        {
+          "num": "10",
+          "nombre": "Byron Nahuj Flores Ramirez",
+          "tel1": "5539760521",
+          "tel2": "5626483719",
+          "inscripcion": "",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
         },
         {
           "num": "11",
@@ -4476,8 +4865,9 @@
       ]
     },
     {
-      "section_num": "12",
+      "section_num": 12,
       "escuela": "OSOS",
+      "turno": "Vespertino",
       "custodio": "OSCAR - CAROLINA",
       "students": [
         {
@@ -4627,6 +5017,27 @@
           }
         },
         {
+          "num": "8",
+          "nombre": "Maria Fernanda Dominguez Vargas",
+          "tel1": "5573643083",
+          "tel2": "5529056022",
+          "inscripcion": "300",
+          "tarifa": "350",
+          "abono1": "",
+          "abono2": "",
+          "abono3": "",
+          "pagos_semanales": {
+            "1": "350",
+            "2": "350",
+            "3": "350",
+            "4": "350",
+            "5": "350",
+            "6": "350",
+            "7": "350",
+            "8": "350"
+          }
+        },
+        {
           "num": "9",
           "nombre": "Zuri Hernandez Moguel",
           "tel1": "5535724819",
@@ -4704,27 +5115,6 @@
           }
         },
         {
-          "num": "8",
-          "nombre": "Maria Fernanda Dominguez Vargas",
-          "tel1": "5573643083",
-          "tel2": "5529056022",
-          "inscripcion": "300",
-          "tarifa": "350",
-          "abono1": "",
-          "abono2": "",
-          "abono3": "",
-          "pagos_semanales": {
-            "1": "350",
-            "2": "350",
-            "3": "350",
-            "4": "350",
-            "5": "350",
-            "6": "350",
-            "7": "350",
-            "8": "350"
-          }
-        },
-        {
           "num": "13",
           "nombre": "Yamileth Perez Ruiz",
           "tel1": "",
@@ -4741,48 +5131,903 @@
       ]
     }
   ],
-  "week_labels": [
-    "1 31 Ago- 04 Sep",
-    "2 7 - 11 Sep",
-    "3 14 - 18 Sep",
-    "4 21 - 25 Sep",
-    "5 28 sep - 2 oct",
-    "6 5-9 Oct",
-    "7 12-16 Oct",
-    "8 19-23 Oct",
-    "9 26 - 30 Oct",
-    "10 2-6 Nov",
-    "11 9-13 nov",
-    "12 16-20 nov",
-    "13 23-27 nov",
-    "14 30 nov-4 dic",
-    "15 7-11 dic",
-    "16 14-18 dic",
-    "17 04-08 ene",
-    "18 11-15 ene",
-    "19 18-22 ene",
-    "20 25-29 ene",
-    "21 01-05 feb",
-    "22 08-12 feb",
-    "23 15-19 feb",
-    "24 22-16 Feb",
-    "25 01-05 Mar",
-    "26 08-12 Mar",
-    "27 15-19 Mar",
-    "28 05-09 Abr",
-    "29 12-16 Abr",
-    "30 19-23 Abr",
-    "31 26-30 Abr",
-    "32 03-07 May",
-    "33 10-14 May",
-    "34 17-21May",
-    "35 24-28 May",
-    "36 31 May -04 Jun",
-    "37 07-11 Jun",
-    "38 14-18 Jun",
-    "39 21-25 Jun",
-    "40 28 Jun-02 Jul",
-    "41 05 - 09 Jul",
-    "42 12-16 Jul"
-  ]
+  "cuentas_general_fortaleza": [
+    {
+      "semana": 1,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 3900,
+          "otrosIngresos": 0,
+          "totalIngresos": 4600,
+          "gasolina": 1366,
+          "otrosGastos": 1000,
+          "totalGastos": 2366,
+          "totalNeto": 2234,
+          "dividendos": 10945.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 2570,
+          "otrosIngresos": 0,
+          "totalIngresos": 5970,
+          "gasolina": 1525,
+          "otrosGastos": 0,
+          "totalGastos": 1525,
+          "totalNeto": 4445,
+          "dividendos": 5472.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 3520,
+          "otrosIngresos": 0,
+          "totalIngresos": 10840,
+          "gasolina": 2074,
+          "otrosGastos": 452,
+          "totalGastos": 2526,
+          "totalNeto": 8314,
+          "dividendos": 5472.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 7250,
+          "otrosIngresos": 0,
+          "totalIngresos": 14050,
+          "gasolina": 1680,
+          "otrosGastos": 0,
+          "totalGastos": 1680,
+          "totalNeto": 12370,
+          "dividendos": 5472.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "10945.2",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 5472.6,
+          "otrosGastos": 10840,
+          "totalGastos": 800,
+          "totalNeto": -6167.4,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DANIEL - CARMEN",
+          "escuela": "1700",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "6000",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "7200",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR - CARO",
+          "escuela": "1600",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 35460,
+        "gasolina": 6645,
+        "otrosGastos": 1452,
+        "totalGastos": 8097,
+        "totalNeto": 27363
+      }
+    },
+    {
+      "semana": 2,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 3850,
+          "otrosIngresos": 0,
+          "totalIngresos": 5250,
+          "gasolina": 1366,
+          "otrosGastos": 3637,
+          "totalGastos": 5003,
+          "totalNeto": 247,
+          "dividendos": 10063.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 2870,
+          "otrosIngresos": 0,
+          "totalIngresos": 6170,
+          "gasolina": 1525,
+          "otrosGastos": 0,
+          "totalGastos": 1525,
+          "totalNeto": 4645,
+          "dividendos": 5031.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 3970,
+          "otrosIngresos": 0,
+          "totalIngresos": 10440,
+          "gasolina": 2074,
+          "otrosGastos": 0,
+          "totalGastos": 2074,
+          "totalNeto": 8366,
+          "dividendos": 5031.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 6400,
+          "otrosIngresos": 0,
+          "totalIngresos": 13580,
+          "gasolina": 1680,
+          "otrosGastos": 0,
+          "totalGastos": 1680,
+          "totalNeto": 11900,
+          "dividendos": 5031.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "10063.2",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 5031.6,
+          "otrosGastos": 10440,
+          "totalGastos": 800,
+          "totalNeto": -6208.4,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DANIEL - CARMEN",
+          "escuela": "100",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "1500",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR - CARO",
+          "escuela": "1050",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 35440,
+        "gasolina": 6645,
+        "otrosGastos": 3637,
+        "totalGastos": 10282,
+        "totalNeto": 25158
+      }
+    },
+    {
+      "semana": 3,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 3500,
+          "otrosIngresos": 0,
+          "totalIngresos": 3850,
+          "gasolina": 915,
+          "otrosGastos": 196,
+          "totalGastos": 1111,
+          "totalNeto": 2739,
+          "dividendos": 13408.8,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 2870,
+          "otrosIngresos": 0,
+          "totalIngresos": 6520,
+          "gasolina": 976,
+          "otrosGastos": 0,
+          "totalGastos": 976,
+          "totalNeto": 5544,
+          "dividendos": 6704.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 5220,
+          "otrosIngresos": 0,
+          "totalIngresos": 14490,
+          "gasolina": 1261,
+          "otrosGastos": 300,
+          "totalGastos": 1561,
+          "totalNeto": 12929,
+          "dividendos": 6704.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 7050,
+          "otrosIngresos": 0,
+          "totalIngresos": 13225,
+          "gasolina": 915,
+          "otrosGastos": 0,
+          "totalGastos": 915,
+          "totalNeto": 12310,
+          "dividendos": 6704.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "13408.8",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 6704.4,
+          "otrosGastos": 14490,
+          "totalGastos": 800,
+          "totalNeto": -8585.6,
+          "dividendos": 1261,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "600",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "600",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 38085,
+        "gasolina": 4067,
+        "otrosGastos": 496,
+        "totalGastos": 4563,
+        "totalNeto": 33522
+      }
+    },
+    {
+      "semana": 4,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 4080,
+          "otrosIngresos": 0,
+          "totalIngresos": 5830,
+          "gasolina": 976,
+          "otrosGastos": 110,
+          "totalGastos": 1086,
+          "totalNeto": 4744,
+          "dividendos": 13194.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 3220,
+          "otrosIngresos": 0,
+          "totalIngresos": 6870,
+          "gasolina": 1220,
+          "otrosGastos": 0,
+          "totalGastos": 1220,
+          "totalNeto": 5650,
+          "dividendos": 6597.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 4220,
+          "otrosIngresos": 0,
+          "totalIngresos": 12990,
+          "gasolina": 1708,
+          "otrosGastos": 0,
+          "totalGastos": 1708,
+          "totalNeto": 11282,
+          "dividendos": 6597.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 5800,
+          "otrosIngresos": 0,
+          "totalIngresos": 12650,
+          "gasolina": 1340,
+          "otrosGastos": 0,
+          "totalGastos": 1340,
+          "totalNeto": 11310,
+          "dividendos": 6597.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "13194.4",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 6597.2,
+          "otrosGastos": 12990,
+          "totalGastos": 800,
+          "totalNeto": -7192.8,
+          "dividendos": 1708,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "600",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "300",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR - CARO",
+          "escuela": "150",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 38340,
+        "gasolina": 5244,
+        "otrosGastos": 110,
+        "totalGastos": 5354,
+        "totalNeto": 32986
+      }
+    },
+    {
+      "semana": 5,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 3850,
+          "otrosIngresos": 0,
+          "totalIngresos": 8870,
+          "gasolina": 1525,
+          "otrosGastos": 742,
+          "totalGastos": 2267,
+          "totalNeto": 6603,
+          "dividendos": 15643.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 3170,
+          "otrosIngresos": 0,
+          "totalIngresos": 7270,
+          "gasolina": 1525,
+          "otrosGastos": 0,
+          "totalGastos": 1525,
+          "totalNeto": 5745,
+          "dividendos": 7821.8,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 4970,
+          "otrosIngresos": 0,
+          "totalIngresos": 15690,
+          "gasolina": 2074,
+          "otrosGastos": 0,
+          "totalGastos": 2074,
+          "totalNeto": 13616,
+          "dividendos": 7821.8,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 7700,
+          "otrosIngresos": 0,
+          "totalIngresos": 14825,
+          "gasolina": 1680,
+          "otrosGastos": 0,
+          "totalGastos": 1680,
+          "totalNeto": 13145,
+          "dividendos": 7821.8,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "15643.6",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 7821.8,
+          "otrosGastos": 15690,
+          "totalGastos": 800,
+          "totalNeto": -8668.2,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "300",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "600",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 46655,
+        "gasolina": 6804,
+        "otrosGastos": 742,
+        "totalGastos": 7546,
+        "totalNeto": 39109
+      }
+    },
+    {
+      "semana": 6,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 4850,
+          "otrosIngresos": 0,
+          "totalIngresos": 8120,
+          "gasolina": 1525,
+          "otrosGastos": 200,
+          "totalGastos": 1725,
+          "totalNeto": 6395,
+          "dividendos": 14365.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 3470,
+          "otrosIngresos": 0,
+          "totalIngresos": 7570,
+          "gasolina": 1525,
+          "otrosGastos": 50,
+          "totalGastos": 1575,
+          "totalNeto": 5995,
+          "dividendos": 7182.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 4870,
+          "otrosIngresos": 0,
+          "totalIngresos": 13990,
+          "gasolina": 2074,
+          "otrosGastos": 0,
+          "totalGastos": 2074,
+          "totalNeto": 11916,
+          "dividendos": 7182.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 6500,
+          "otrosIngresos": 0,
+          "totalIngresos": 13550,
+          "gasolina": 1943,
+          "otrosGastos": 0,
+          "totalGastos": 1943,
+          "totalNeto": 11607,
+          "dividendos": 7182.6,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "14365.2",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 7182.6,
+          "otrosGastos": 13990,
+          "totalGastos": 800,
+          "totalNeto": -7607.4,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "300",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 43230,
+        "gasolina": 7067,
+        "otrosGastos": 250,
+        "totalGastos": 7317,
+        "totalNeto": 35913
+      }
+    },
+    {
+      "semana": 7,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 3900,
+          "otrosIngresos": 0,
+          "totalIngresos": 8220,
+          "gasolina": 1525,
+          "otrosGastos": 200,
+          "totalGastos": 1725,
+          "totalNeto": 6495,
+          "dividendos": 15406.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 4320,
+          "otrosIngresos": 0,
+          "totalIngresos": 8420,
+          "gasolina": 1525,
+          "otrosGastos": 50,
+          "totalGastos": 1575,
+          "totalNeto": 6845,
+          "dividendos": 7703.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 5240,
+          "otrosIngresos": 0,
+          "totalIngresos": 14960,
+          "gasolina": 2074,
+          "otrosGastos": 300,
+          "totalGastos": 2374,
+          "totalNeto": 12586,
+          "dividendos": 7703.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 7550,
+          "otrosIngresos": 0,
+          "totalIngresos": 14600,
+          "gasolina": 2010,
+          "otrosGastos": 0,
+          "totalGastos": 2010,
+          "totalNeto": 12590,
+          "dividendos": 7703.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "15406.4",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 7703.2,
+          "otrosGastos": 14960,
+          "totalGastos": 800,
+          "totalNeto": -8056.8,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "300",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 46200,
+        "gasolina": 7134,
+        "otrosGastos": 550,
+        "totalGastos": 7684,
+        "totalNeto": 38516
+      }
+    },
+    {
+      "semana": 8,
+      "custodios": [
+        {
+          "nombre": "DANIEL (CARMEN)",
+          "escuela": "Osos Vespertrino",
+          "ingreso": 4250,
+          "otrosIngresos": 0,
+          "totalIngresos": 8470,
+          "gasolina": 1830,
+          "otrosGastos": 250,
+          "totalGastos": 2080,
+          "totalNeto": 6390,
+          "dividendos": 14086.4,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR (CARO) TREJO",
+          "escuela": "OSOS MAT",
+          "ingreso": 3470,
+          "otrosIngresos": 0,
+          "totalIngresos": 7120,
+          "gasolina": 1830,
+          "otrosGastos": 0,
+          "totalGastos": 1830,
+          "totalNeto": 5290,
+          "dividendos": 7043.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "EDUARDO",
+          "escuela": "OSOS M",
+          "ingreso": 4550,
+          "otrosIngresos": 0,
+          "totalIngresos": 14020,
+          "gasolina": 2074,
+          "otrosGastos": 0,
+          "totalGastos": 2074,
+          "totalNeto": 11946,
+          "dividendos": 7043.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "FERNANDO",
+          "escuela": "OSOS M",
+          "ingreso": 6650,
+          "otrosIngresos": 0,
+          "totalIngresos": 13600,
+          "gasolina": 2010,
+          "otrosGastos": 0,
+          "totalGastos": 2010,
+          "totalNeto": 11590,
+          "dividendos": 7043.2,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "DIVIDENDO SOCIO DANIEL",
+          "escuela": "14086.4",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 7043.2,
+          "otrosGastos": 14020,
+          "totalGastos": 800,
+          "totalNeto": -7776.8,
+          "dividendos": 2074,
+          "sub_escuelas": []
+        },
+        {
+          "nombre": "OSCAR - CARO",
+          "escuela": "150",
+          "ingreso": 0,
+          "otrosIngresos": 0,
+          "totalIngresos": 0,
+          "gasolina": 0,
+          "otrosGastos": 0,
+          "totalGastos": 0,
+          "totalNeto": 0,
+          "dividendos": 0,
+          "sub_escuelas": []
+        }
+      ],
+      "inscripciones": [],
+      "dividendos": {},
+      "totales": {
+        "totalIngresos": 43210,
+        "gasolina": 7744,
+        "otrosGastos": 250,
+        "totalGastos": 7994,
+        "totalNeto": 35216
+      }
+    }
+  ],
+  "week_labels": {
+    "1": "31 Ago- 04 Sep",
+    "2": "7 - 11 Sep",
+    "3": "14 - 18 Sep",
+    "4": "21 - 25 Sep",
+    "5": "28 sep - 2 oct",
+    "6": "5-9 Oct",
+    "7": "12-16 Oct",
+    "8": "19-23 Oct",
+    "9": "26 - 30 Oct",
+    "10": "2-6 Nov",
+    "11": "9-13 nov",
+    "12": "16-20 nov",
+    "13": "23-27 nov",
+    "14": "30 nov-4 dic",
+    "15": "7-11 dic",
+    "16": "14-18 dic",
+    "17": "04-08 ene",
+    "18": "11-15 ene",
+    "19": "18-22 ene",
+    "20": "25-29 ene",
+    "21": "01-05 feb",
+    "22": "08-12 feb",
+    "23": "15-19 feb",
+    "24": "22-16 Feb",
+    "25": "01-05 Mar",
+    "26": "08-12 Mar",
+    "27": "15-19 Mar",
+    "28": "05-09 Abr",
+    "29": "12-16  Abr",
+    "30": "19-23 Abr",
+    "31": "26-30 Abr",
+    "32": "03-07 May",
+    "33": "10-14 May",
+    "34": "17-21May",
+    "35": "24-28 May",
+    "36": "31 May -04 Jun",
+    "37": "07-11 Jun",
+    "38": "14-18 Jun",
+    "39": "21-25 Jun",
+    "40": "28 Jun-02 Jul",
+    "41": "05 - 09 Jul",
+    "42": "12-16 Jul"
+  }
 }
