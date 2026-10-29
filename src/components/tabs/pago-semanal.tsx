@@ -5,7 +5,7 @@ import Link from "next/link";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { getSchoolWeeks, getCurrentWeek, formatWeekDate } from "@/utils/calendar";
-import { getWeekStatus, calculateSummary } from "@/utils/payments";
+import { getWeekStatus, getPaidInWeek, calculateSummary } from "@/utils/payments";
 import type { Student, Payment } from "@/utils/payments";
 import SummaryBar from "@/components/summary-bar";
 import PaymentDialog from "@/components/payment-dialog";
@@ -332,6 +332,21 @@ function SectionBlock({
           ))}
         </tr>
       ))}
+
+      {/* Totales por semana (como la fila azul del Excel) */}
+      <tr className="bg-[#0000CC] text-white font-bold">
+        <td colSpan={3} className="sticky left-0 z-10 bg-[#0000CC] border border-[#0000AA] px-1 py-0.5 text-right text-[10px]">
+          TOTAL
+        </td>
+        <td className="border border-[#0000AA] px-1 py-0.5 text-center text-[10px]">
+          {section.students.reduce((sum, s) => sum + getPaidInWeek(payments.filter((p) => p.studentId === s.id), 0), 0)}
+        </td>
+        {weekNums.map((w) => (
+          <td key={w} className="border border-[#0000AA] px-1 py-0.5 text-center text-[10px]">
+            {section.students.reduce((sum, s) => sum + getPaidInWeek(payments.filter((p) => p.studentId === s.id), w), 0)}
+          </td>
+        ))}
+      </tr>
     </>
   );
 }
