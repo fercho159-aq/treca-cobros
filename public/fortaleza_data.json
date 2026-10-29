@@ -5146,7 +5146,13 @@
           "totalGastos": 2366,
           "totalNeto": 2234,
           "dividendos": 10945.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 700
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5159,7 +5165,13 @@
           "totalGastos": 1525,
           "totalNeto": 4445,
           "dividendos": 5472.6,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 3400
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5172,7 +5184,21 @@
           "totalGastos": 2526,
           "totalNeto": 8314,
           "dividendos": 5472.6,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5020
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 1800
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 500
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5185,83 +5211,114 @@
           "totalGastos": 1680,
           "totalNeto": 12370,
           "dividendos": 5472.6,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "10945.2",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 5472.6,
-          "otrosGastos": 10840,
-          "totalGastos": 800,
-          "totalNeto": -6167.4,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DANIEL - CARMEN",
-          "escuela": "1700",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "6000",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "FERNANDO",
-          "escuela": "7200",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "OSCAR - CARO",
-          "escuela": "1600",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5150
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1650
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 35460,
         "gasolina": 6645,
         "otrosGastos": 1452,
         "totalGastos": 8097,
-        "totalNeto": 27363
-      }
+        "totalNeto": 27363,
+        "dividendos": 27363
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 6840.75
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1368.15
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 5472.6,
+          "socio": "treca-fortaleza",
+          "recibe": 10945.2,
+          "cobro": 4600,
+          "ahorro": 800,
+          "total": 5545.2,
+          "gasolina": 1366,
+          "totalFinal": 6911.2
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 10945.2,
+          "socio": "Lalo Eduardo",
+          "recibe": 5472.6,
+          "cobro": 10840,
+          "ahorro": 800,
+          "total": -6167.4,
+          "gasolina": 2074,
+          "totalFinal": -4093.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 5472.6,
+          "cobro": 14050,
+          "ahorro": 800,
+          "total": -9377.4,
+          "gasolina": 1680,
+          "totalFinal": -7697.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 5472.6,
+          "cobro": 5970,
+          "ahorro": 800,
+          "total": -1297.4,
+          "gasolina": 1525,
+          "totalFinal": 227.6
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 1700,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 6000,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 7200,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 1600,
+          "para_daniel": "PARA TRECA-FORTALEZA\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 16500,
+        "para_daniel": 6600,
+        "para_socios": 3300
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 2,
@@ -5277,7 +5334,13 @@
           "totalGastos": 5003,
           "totalNeto": 247,
           "dividendos": 10063.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 1400
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5290,7 +5353,13 @@
           "totalGastos": 1525,
           "totalNeto": 4645,
           "dividendos": 5031.6,
-          "sub_escuelas": []
+          "extra": "5661",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 3300
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5303,7 +5372,21 @@
           "totalGastos": 2074,
           "totalNeto": 8366,
           "dividendos": 5031.6,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 4670
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 1550
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 250
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5316,70 +5399,114 @@
           "totalGastos": 1680,
           "totalNeto": 11900,
           "dividendos": 5031.6,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "10063.2",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 5031.6,
-          "otrosGastos": 10440,
-          "totalGastos": 800,
-          "totalNeto": -6208.4,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DANIEL - CARMEN",
-          "escuela": "100",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "1500",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "OSCAR - CARO",
-          "escuela": "1050",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5500
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1680
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 35440,
         "gasolina": 6645,
         "otrosGastos": 3637,
         "totalGastos": 10282,
-        "totalNeto": 25158
-      }
+        "totalNeto": 25158,
+        "dividendos": 25158
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 6289.5
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1257.9
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 5031.6,
+          "socio": "treca-fortaleza",
+          "recibe": 10063.2,
+          "cobro": 5250,
+          "ahorro": 800,
+          "total": 4013.2,
+          "gasolina": 1366,
+          "totalFinal": 5379.2
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 10063.2,
+          "socio": "Lalo Eduardo",
+          "recibe": 5031.6,
+          "cobro": 10440,
+          "ahorro": 800,
+          "total": -6208.4,
+          "gasolina": 2074,
+          "totalFinal": -4134.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 5031.6,
+          "cobro": 13580,
+          "ahorro": 800,
+          "total": -9348.4,
+          "gasolina": 1680,
+          "totalFinal": -7668.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 5031.6,
+          "cobro": 6170,
+          "ahorro": 800,
+          "total": -1938.4,
+          "gasolina": 1525,
+          "totalFinal": -413.4
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 100,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 1500,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 1050,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 2650,
+        "para_daniel": 1060,
+        "para_socios": 530
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 3,
@@ -5395,7 +5522,13 @@
           "totalGastos": 1111,
           "totalNeto": 2739,
           "dividendos": 13408.8,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 350
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5408,7 +5541,13 @@
           "totalGastos": 976,
           "totalNeto": 5544,
           "dividendos": 6704.4,
-          "sub_escuelas": []
+          "extra": "7542",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 3650
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5421,7 +5560,21 @@
           "totalGastos": 1561,
           "totalNeto": 12929,
           "dividendos": 6704.4,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5370
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 2150
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 1750
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5434,57 +5587,114 @@
           "totalGastos": 915,
           "totalNeto": 12310,
           "dividendos": 6704.4,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "13408.8",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 6704.4,
-          "otrosGastos": 14490,
-          "totalGastos": 800,
-          "totalNeto": -8585.6,
-          "dividendos": 1261,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "600",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "FERNANDO",
-          "escuela": "600",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 4650
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1525
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 38085,
         "gasolina": 4067,
         "otrosGastos": 496,
         "totalGastos": 4563,
-        "totalNeto": 33522
-      }
+        "totalNeto": 33522,
+        "dividendos": 33522
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 8380.5
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1676.1
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 6704.4,
+          "socio": "treca-fortaleza",
+          "recibe": 13408.8,
+          "cobro": 3850,
+          "ahorro": 800,
+          "total": 8758.8,
+          "gasolina": 915,
+          "totalFinal": 9673.8
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 13408.8,
+          "socio": "Lalo Eduardo",
+          "recibe": 6704.4,
+          "cobro": 14490,
+          "ahorro": 800,
+          "total": -8585.6,
+          "gasolina": 1261,
+          "totalFinal": -7324.6
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 6704.4,
+          "cobro": 13225,
+          "ahorro": 800,
+          "total": -7320.6,
+          "gasolina": 915,
+          "totalFinal": -6405.6
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 6704.4,
+          "cobro": 6520,
+          "ahorro": 800,
+          "total": -615.6,
+          "gasolina": 976,
+          "totalFinal": 360.4
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 600,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 600,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 0,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 1200,
+        "para_daniel": 480,
+        "para_socios": 240
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 4,
@@ -5500,7 +5710,13 @@
           "totalGastos": 1086,
           "totalNeto": 4744,
           "dividendos": 13194.4,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 1750
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5513,7 +5729,13 @@
           "totalGastos": 1220,
           "totalNeto": 5650,
           "dividendos": 6597.2,
-          "sub_escuelas": []
+          "extra": "7422",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 3650
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5526,7 +5748,21 @@
           "totalGastos": 1708,
           "totalNeto": 11282,
           "dividendos": 6597.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5970
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 1800
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 1000
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5539,70 +5775,114 @@
           "totalGastos": 1340,
           "totalNeto": 11310,
           "dividendos": 6597.2,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "13194.4",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 6597.2,
-          "otrosGastos": 12990,
-          "totalGastos": 800,
-          "totalNeto": -7192.8,
-          "dividendos": 1708,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "600",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "FERNANDO",
-          "escuela": "300",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "OSCAR - CARO",
-          "escuela": "150",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5000
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1850
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 38340,
         "gasolina": 5244,
         "otrosGastos": 110,
         "totalGastos": 5354,
-        "totalNeto": 32986
-      }
+        "totalNeto": 32986,
+        "dividendos": 32986
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 8246.5
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1649.3
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 6597.2,
+          "socio": "treca-fortaleza",
+          "recibe": 13194.4,
+          "cobro": 5830,
+          "ahorro": 800,
+          "total": 6564.4,
+          "gasolina": 976,
+          "totalFinal": 7540.4
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 13194.4,
+          "socio": "Lalo Eduardo",
+          "recibe": 6597.2,
+          "cobro": 12990,
+          "ahorro": 800,
+          "total": -7192.8,
+          "gasolina": 1708,
+          "totalFinal": -5484.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 6597.2,
+          "cobro": 12650,
+          "ahorro": 800,
+          "total": -6852.8,
+          "gasolina": 1340,
+          "totalFinal": -5512.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 6597.2,
+          "cobro": 6870,
+          "ahorro": 800,
+          "total": -1072.8,
+          "gasolina": 1220,
+          "totalFinal": 147.2
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 600,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 300,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 150,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 1050,
+        "para_daniel": 420,
+        "para_socios": 210
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 5,
@@ -5618,7 +5898,17 @@
           "totalGastos": 2267,
           "totalNeto": 6603,
           "dividendos": 15643.6,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 1750
+            },
+            {
+              "escuela": "Osos M",
+              "ingreso": 3270
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5631,7 +5921,13 @@
           "totalGastos": 1525,
           "totalNeto": 5745,
           "dividendos": 7821.8,
-          "sub_escuelas": []
+          "extra": "8799",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 4100
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5644,7 +5940,21 @@
           "totalGastos": 2074,
           "totalNeto": 13616,
           "dividendos": 7821.8,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5970
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 2750
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 2000
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5657,57 +5967,114 @@
           "totalGastos": 1680,
           "totalNeto": 13145,
           "dividendos": 7821.8,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "15643.6",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 7821.8,
-          "otrosGastos": 15690,
-          "totalGastos": 800,
-          "totalNeto": -8668.2,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "300",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "FERNANDO",
-          "escuela": "600",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5425
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1700
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 46655,
         "gasolina": 6804,
         "otrosGastos": 742,
         "totalGastos": 7546,
-        "totalNeto": 39109
-      }
+        "totalNeto": 39109,
+        "dividendos": 39109
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 9777.25
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1955.45
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 7821.8,
+          "socio": "treca-fortaleza",
+          "recibe": 15643.6,
+          "cobro": 8870,
+          "ahorro": 800,
+          "total": 5973.6,
+          "gasolina": 1525,
+          "totalFinal": 7498.6
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 15643.6,
+          "socio": "Lalo Eduardo",
+          "recibe": 7821.8,
+          "cobro": 15690,
+          "ahorro": 800,
+          "total": -8668.2,
+          "gasolina": 2074,
+          "totalFinal": -6594.2
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 7821.8,
+          "cobro": 14825,
+          "ahorro": 800,
+          "total": -7803.2,
+          "gasolina": 1680,
+          "totalFinal": -6123.2
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 7821.8,
+          "cobro": 7270,
+          "ahorro": 800,
+          "total": -248.2,
+          "gasolina": 1525,
+          "totalFinal": 1276.8
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 300,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 600,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 0,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 900,
+        "para_daniel": 360,
+        "para_socios": 180
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 6,
@@ -5723,7 +6090,17 @@
           "totalGastos": 1725,
           "totalNeto": 6395,
           "dividendos": 14365.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 350
+            },
+            {
+              "escuela": "Osos M",
+              "ingreso": 2920
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5736,7 +6113,13 @@
           "totalGastos": 1575,
           "totalNeto": 5995,
           "dividendos": 7182.6,
-          "sub_escuelas": []
+          "extra": "8080",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 4100
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5749,7 +6132,21 @@
           "totalGastos": 2074,
           "totalNeto": 11916,
           "dividendos": 7182.6,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5620
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 2500
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 1000
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5762,44 +6159,114 @@
           "totalGastos": 1943,
           "totalNeto": 11607,
           "dividendos": 7182.6,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "14365.2",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 7182.6,
-          "otrosGastos": 13990,
-          "totalGastos": 800,
-          "totalNeto": -7607.4,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "300",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5350
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1700
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 43230,
         "gasolina": 7067,
         "otrosGastos": 250,
         "totalGastos": 7317,
-        "totalNeto": 35913
-      }
+        "totalNeto": 35913,
+        "dividendos": 35913
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 8978.25
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1795.65
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 7182.6,
+          "socio": "treca-fortaleza",
+          "recibe": 14365.2,
+          "cobro": 8120,
+          "ahorro": 800,
+          "total": 5445.2,
+          "gasolina": 1525,
+          "totalFinal": 6970.2
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 14365.2,
+          "socio": "Lalo Eduardo",
+          "recibe": 7182.6,
+          "cobro": 13990,
+          "ahorro": 800,
+          "total": -7607.4,
+          "gasolina": 2074,
+          "totalFinal": -5533.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 7182.6,
+          "cobro": 13550,
+          "ahorro": 800,
+          "total": -7167.4,
+          "gasolina": 1943,
+          "totalFinal": -5224.4
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 7182.6,
+          "cobro": 7570,
+          "ahorro": 800,
+          "total": -1187.4,
+          "gasolina": 1525,
+          "totalFinal": 337.6
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 300,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 0,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 300,
+        "para_daniel": 120,
+        "para_socios": 60
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 7,
@@ -5815,7 +6282,17 @@
           "totalGastos": 1725,
           "totalNeto": 6495,
           "dividendos": 15406.4,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 1400
+            },
+            {
+              "escuela": "Osos M",
+              "ingreso": 2920
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5828,7 +6305,13 @@
           "totalGastos": 1575,
           "totalNeto": 6845,
           "dividendos": 7703.2,
-          "sub_escuelas": []
+          "extra": "8666",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 4100
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5841,7 +6324,21 @@
           "totalGastos": 2374,
           "totalNeto": 12586,
           "dividendos": 7703.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 6070
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 2650
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 1000
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5854,44 +6351,114 @@
           "totalGastos": 2010,
           "totalNeto": 12590,
           "dividendos": 7703.2,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "15406.4",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 7703.2,
-          "otrosGastos": 14960,
-          "totalGastos": 800,
-          "totalNeto": -8056.8,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "EDUARDO",
-          "escuela": "300",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5350
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1700
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 46200,
         "gasolina": 7134,
         "otrosGastos": 550,
         "totalGastos": 7684,
-        "totalNeto": 38516
-      }
+        "totalNeto": 38516,
+        "dividendos": 38516
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 9629
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1925.8
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 7703.2,
+          "socio": "treca-fortaleza",
+          "recibe": 15406.4,
+          "cobro": 8220,
+          "ahorro": 800,
+          "total": 6386.4,
+          "gasolina": 1525,
+          "totalFinal": 7911.4
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 15406.4,
+          "socio": "Lalo Eduardo",
+          "recibe": 7703.2,
+          "cobro": 14960,
+          "ahorro": 800,
+          "total": -8056.8,
+          "gasolina": 2074,
+          "totalFinal": -5982.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 7703.2,
+          "cobro": 14600,
+          "ahorro": 800,
+          "total": -7696.8,
+          "gasolina": 2010,
+          "totalFinal": -5686.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 7703.2,
+          "cobro": 8420,
+          "ahorro": 800,
+          "total": -1516.8,
+          "gasolina": 1525,
+          "totalFinal": 8.2
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 300,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 0,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 300,
+        "para_daniel": 120,
+        "para_socios": 60
+      },
+      "para_daniel": null,
+      "para_socios": null
     },
     {
       "semana": 8,
@@ -5907,7 +6474,17 @@
           "totalGastos": 2080,
           "totalNeto": 6390,
           "dividendos": 14086.4,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "Minerva",
+              "ingreso": 1250
+            },
+            {
+              "escuela": "Osos M",
+              "ingreso": 2970
+            }
+          ]
         },
         {
           "nombre": "OSCAR (CARO) TREJO",
@@ -5920,7 +6497,13 @@
           "totalGastos": 1830,
           "totalNeto": 5290,
           "dividendos": 7043.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS VESP",
+              "ingreso": 3650
+            }
+          ]
         },
         {
           "nombre": "EDUARDO",
@@ -5933,7 +6516,21 @@
           "totalGastos": 2074,
           "totalNeto": 11946,
           "dividendos": 7043.2,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5370
+            },
+            {
+              "escuela": "AMERICAS",
+              "ingreso": 2850
+            },
+            {
+              "escuela": "FROBEL",
+              "ingreso": 1250
+            }
+          ]
         },
         {
           "nombre": "FERNANDO",
@@ -5946,44 +6543,114 @@
           "totalGastos": 2010,
           "totalNeto": 11590,
           "dividendos": 7043.2,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "DIVIDENDO SOCIO DANIEL",
-          "escuela": "14086.4",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 7043.2,
-          "otrosGastos": 14020,
-          "totalGastos": 800,
-          "totalNeto": -7776.8,
-          "dividendos": 2074,
-          "sub_escuelas": []
-        },
-        {
-          "nombre": "OSCAR - CARO",
-          "escuela": "150",
-          "ingreso": 0,
-          "otrosIngresos": 0,
-          "totalIngresos": 0,
-          "gasolina": 0,
-          "otrosGastos": 0,
-          "totalGastos": 0,
-          "totalNeto": 0,
-          "dividendos": 0,
-          "sub_escuelas": []
+          "extra": "",
+          "sub_escuelas": [
+            {
+              "escuela": "OSOS V",
+              "ingreso": 5250
+            },
+            {
+              "escuela": "MOISES",
+              "ingreso": 1700
+            }
+          ]
         }
       ],
-      "inscripciones": [],
-      "dividendos": {},
-      "totales": {
+      "totales_row": {
         "totalIngresos": 43210,
         "gasolina": 7744,
         "otrosGastos": 250,
         "totalGastos": 7994,
-        "totalNeto": 35216
-      }
+        "totalNeto": 35216,
+        "dividendos": 35216
+      },
+      "dividendo_socios_4": {
+        "label": "DIVIENDO SOCIOS (4)",
+        "monto": 8804
+      },
+      "porcentaje_20": {
+        "label": "20%",
+        "monto": 1760.8
+      },
+      "socios_table": [
+        {
+          "label": "DIVIENDO 4 SOCIOS",
+          "monto": 7043.2,
+          "socio": "treca-fortaleza",
+          "recibe": 14086.4,
+          "cobro": 8470,
+          "ahorro": 800,
+          "total": 4816.4,
+          "gasolina": 1830,
+          "totalFinal": 6646.4
+        },
+        {
+          "label": "DIVIDENDO SOCIO DANIEL",
+          "monto": 14086.4,
+          "socio": "Lalo Eduardo",
+          "recibe": 7043.2,
+          "cobro": 14020,
+          "ahorro": 800,
+          "total": -7776.8,
+          "gasolina": 2074,
+          "totalFinal": -5702.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "Fernando Socio",
+          "recibe": 7043.2,
+          "cobro": 13600,
+          "ahorro": 800,
+          "total": -7356.8,
+          "gasolina": 2010,
+          "totalFinal": -5346.8
+        },
+        {
+          "label": "",
+          "monto": 0,
+          "socio": "treca2-fortaleza",
+          "recibe": 7043.2,
+          "cobro": 7120,
+          "ahorro": 800,
+          "total": -876.8,
+          "gasolina": 1830,
+          "totalFinal": 953.2
+        }
+      ],
+      "inscripciones": [
+        {
+          "custodio": "DANIEL - CARMEN",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "EDUARDO",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "FERNANDO",
+          "monto": 0,
+          "para_daniel": "",
+          "para_socios": ""
+        },
+        {
+          "custodio": "OSCAR - CARO",
+          "monto": 150,
+          "para_daniel": "PARA DANIEL\n20% + SU PARTE",
+          "para_socios": "PARA SOCIOS\nSU PARTE"
+        }
+      ],
+      "inscripciones_total": {
+        "total": 150,
+        "para_daniel": 60,
+        "para_socios": 30
+      },
+      "para_daniel": null,
+      "para_socios": null
     }
   ],
   "week_labels": {

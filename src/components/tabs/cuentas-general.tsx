@@ -2,35 +2,33 @@
 
 import { useState, useEffect } from "react";
 
+interface SubEscuela { escuela: string; ingreso: number; }
 interface CustodioData {
-  nombre: string;
-  escuela: string;
-  ingreso: number;
-  otrosIngresos: number;
-  totalIngresos: number;
-  gasolina: number;
-  otrosGastos: number;
-  totalGastos: number;
-  totalNeto: number;
-  dividendos: number;
-  sub_escuelas: { escuela: string; ingreso: number }[];
+  nombre: string; escuela: string; ingreso: number; otrosIngresos: number;
+  totalIngresos: number; gasolina: number; otrosGastos: number;
+  totalGastos: number; totalNeto: number; dividendos: number; extra: string;
+  sub_escuelas: SubEscuela[];
 }
-
+interface SocioRow {
+  label: string; monto: number; socio: string; recibe: number;
+  cobro: number; ahorro: number; total: number; gasolina: number; totalFinal: number;
+}
+interface InscripcionRow { custodio: string; monto: number; para_daniel: string; para_socios: string; }
 interface WeekData {
   semana: number;
   custodios: CustodioData[];
-  inscripciones: { custodio: string; monto: number }[];
-  totales: {
-    totalIngresos?: number;
-    gasolina?: number;
-    otrosGastos?: number;
-    totalGastos?: number;
-    totalNeto?: number;
-  };
+  totales_row: { totalIngresos: number; gasolina: number; otrosGastos: number; totalGastos: number; totalNeto: number; dividendos: number } | null;
+  dividendo_socios_4: { label: string; monto: number } | null;
+  porcentaje_20: { label: string; monto: number } | null;
+  socios_table: SocioRow[];
+  inscripciones: InscripcionRow[];
+  inscripciones_total: { total: number; para_daniel: number; para_socios: number } | null;
 }
 
-const fmt = (n: number) =>
-  n ? n.toLocaleString("es-MX", { style: "currency", currency: "MXN", minimumFractionDigits: 0 }) : "";
+const n = (v: number) => v ? v.toLocaleString("es-MX") : "";
+const CELL = "border border-gray-300 px-2 py-1 text-[11px]";
+const CELL_R = `${CELL} text-right`;
+const HEADER = "border border-[#0000AA] px-2 py-1 text-[10px] font-bold bg-[#0000CC] text-white";
 
 export default function CuentasGeneralTab() {
   const [weeksData, setWeeksData] = useState<WeekData[]>([]);
@@ -43,136 +41,199 @@ export default function CuentasGeneralTab() {
       .then((data) => {
         const cuentas = data.cuentas_general_fortaleza || [];
         setWeeksData(cuentas);
-        if (cuentas.length > 0) {
-          setSelectedWeek(cuentas[cuentas.length - 1].semana);
-        }
+        if (cuentas.length > 0) setSelectedWeek(cuentas[cuentas.length - 1].semana);
         setLoading(false);
       })
       .catch(() => setLoading(false));
   }, []);
 
-  if (loading) {
-    return <div className="flex items-center justify-center h-64 text-gray-500">Cargando...</div>;
-  }
+  if (loading) return <div className="flex items-center justify-center h-64 text-gray-500">Cargando...</div>;
 
-  const currentData = weeksData.find((w) => w.semana === selectedWeek);
+  const w = weeksData.find((d) => d.semana === selectedWeek);
 
   return (
-    <div className="overflow-auto h-full p-4">
+    <div className="overflow-auto h-full p-3">
       {/* Selector de semana */}
-      <div className="flex gap-2 mb-4 flex-wrap">
-        {weeksData.map((w) => (
-          <button
-            key={w.semana}
-            onClick={() => setSelectedWeek(w.semana)}
-            className={`px-4 py-2 rounded-lg text-sm font-bold border transition ${
-              selectedWeek === w.semana
-                ? "bg-blue-600 text-white border-blue-600"
-                : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
+      <div className="flex gap-1 mb-3 flex-wrap">
+        {weeksData.map((d) => (
+          <button key={d.semana} onClick={() => setSelectedWeek(d.semana)}
+            className={`px-3 py-1.5 rounded text-xs font-bold border transition ${
+              selectedWeek === d.semana ? "bg-[#0000CC] text-white border-[#0000CC]" : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
             }`}
-          >
-            Semana {w.semana}
-          </button>
+          >Semana {d.semana}</button>
         ))}
       </div>
 
-      {!currentData ? (
-        <div className="text-gray-400 text-center py-8">
-          No hay datos de cuentas. Carga los datos desde <a href="/seed" className="text-blue-600 underline">/seed</a>.
-        </div>
+      {!w ? (
+        <div className="text-gray-400 text-center py-8">No hay datos.</div>
       ) : (
-        <>
-          {/* Tabla de custodios */}
-          <table className="border-collapse text-xs w-full bg-white" style={{ minWidth: "900px" }}>
+        <div className="space-y-6">
+          {/* ============ TABLA 1: CUSTODIOS ============ */}
+          <table className="border-collapse bg-white" style={{ minWidth: "950px" }}>
             <thead>
-              <tr className="bg-[#0000CC] text-white">
-                <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[160px]">NOMBRE</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-left min-w-[130px]">ESCUELA</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[80px]">INGRESO</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">OTROS ING.</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">TOTAL ING.</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[80px]">GASOLINA</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">OTROS GAST.</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">TOTAL GAST.</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">TOTAL NETO</th>
-                <th className="border border-[#0000AA] px-2 py-1.5 text-right min-w-[90px]">DIVIDENDOS</th>
+              <tr>
+                <th className={HEADER} style={{minWidth:160}}>NOMBRE</th>
+                <th className={HEADER} style={{minWidth:130}}>ESCUELA</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:80}}>INGRESO</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:100}}>OTROS INGRESOS</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:100}}>TOTAL INGRESOS</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:80}}>GASOLINA</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:100}}>OTROS GASTOS</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:100}}>TOTAL GASTOS</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:100}}>TOTAL NETO</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:90}}>DIVIENDOS</th>
+                <th className={`${HEADER} text-right`} style={{minWidth:70}}>.</th>
               </tr>
             </thead>
             <tbody>
-              {currentData.custodios.map((c, idx) => (
+              {w.custodios.map((c, idx) => (
                 <>
                   <tr key={idx} className={idx % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                    <td className="border border-gray-300 px-2 py-1.5 font-bold">{c.nombre}</td>
-                    <td className="border border-gray-300 px-2 py-1.5">{c.escuela}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right">{fmt(c.ingreso)}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right">{fmt(c.otrosIngresos)}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right font-bold text-blue-700">{fmt(c.totalIngresos)}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right text-red-600">{fmt(c.gasolina)}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right text-red-600">{fmt(c.otrosGastos)}</td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right font-bold text-red-600">{fmt(c.totalGastos)}</td>
-                    <td className={`border border-gray-300 px-2 py-1.5 text-right font-bold ${c.totalNeto >= 0 ? "text-green-700" : "text-red-600"}`}>
-                      {fmt(c.totalNeto)}
-                    </td>
-                    <td className="border border-gray-300 px-2 py-1.5 text-right">{fmt(c.dividendos)}</td>
+                    <td className={`${CELL} font-bold`}>{c.nombre}</td>
+                    <td className={CELL}>{c.escuela}</td>
+                    <td className={CELL_R}>{n(c.ingreso)}</td>
+                    <td className={CELL_R}>{n(c.otrosIngresos)}</td>
+                    <td className={`${CELL_R} font-bold`}>{n(c.totalIngresos)}</td>
+                    <td className={CELL_R}>{n(c.gasolina)}</td>
+                    <td className={CELL_R}>{n(c.otrosGastos)}</td>
+                    <td className={`${CELL_R} font-bold`}>{n(c.totalGastos)}</td>
+                    <td className={`${CELL_R} font-bold ${c.totalNeto >= 0 ? "text-green-700" : "text-red-600"}`}>{n(c.totalNeto)}</td>
+                    <td className={CELL_R}>{n(c.dividendos)}</td>
+                    <td className={CELL_R}>{c.extra ? n(parseFloat(c.extra)) : ""}</td>
                   </tr>
-                  {/* Sub-escuelas */}
-                  {c.sub_escuelas?.map((sub, si) => (
-                    <tr key={`${idx}-sub-${si}`} className="bg-gray-50">
-                      <td className="border border-gray-300 px-2 py-1"></td>
-                      <td className="border border-gray-300 px-2 py-1 text-gray-600 pl-4">{sub.escuela}</td>
-                      <td className="border border-gray-300 px-2 py-1 text-right text-gray-600">{fmt(sub.ingreso)}</td>
-                      <td className="border border-gray-300 px-2 py-1" colSpan={7}></td>
+                  {c.sub_escuelas.map((sub, si) => (
+                    <tr key={`${idx}-s${si}`} className="bg-white">
+                      <td className={CELL}></td>
+                      <td className={CELL}>{sub.escuela}</td>
+                      <td className={CELL_R}>{n(sub.ingreso)}</td>
+                      <td className={CELL}></td><td className={CELL}></td><td className={CELL}></td>
+                      <td className={CELL}></td><td className={CELL}></td><td className={CELL}></td>
+                      <td className={CELL}></td><td className={CELL}></td>
                     </tr>
                   ))}
                 </>
               ))}
-
               {/* Totales */}
-              {currentData.totales.totalIngresos && (
+              {w.totales_row && (
                 <tr className="bg-[#D9E2F3] font-bold">
-                  <td className="border border-gray-400 px-2 py-2" colSpan={2}>TOTAL</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right"></td>
-                  <td className="border border-gray-400 px-2 py-2 text-right"></td>
-                  <td className="border border-gray-400 px-2 py-2 text-right text-blue-700">{fmt(currentData.totales.totalIngresos || 0)}</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right text-red-600">{fmt(currentData.totales.gasolina || 0)}</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right text-red-600">{fmt(currentData.totales.otrosGastos || 0)}</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right text-red-600">{fmt(currentData.totales.totalGastos || 0)}</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right text-green-700">{fmt(currentData.totales.totalNeto || 0)}</td>
-                  <td className="border border-gray-400 px-2 py-2 text-right"></td>
+                  <td className={CELL} colSpan={2}></td>
+                  <td className={CELL_R}></td>
+                  <td className={CELL_R}></td>
+                  <td className={`${CELL_R} text-blue-800`}>{n(w.totales_row.totalIngresos)}</td>
+                  <td className={CELL_R}>{n(w.totales_row.gasolina)}</td>
+                  <td className={CELL_R}>{n(w.totales_row.otrosGastos)}</td>
+                  <td className={CELL_R}>{n(w.totales_row.totalGastos)}</td>
+                  <td className={`${CELL_R} text-green-700`}>{n(w.totales_row.totalNeto)}</td>
+                  <td className={CELL_R}>{n(w.totales_row.dividendos)}</td>
+                  <td className={CELL}></td>
                 </tr>
               )}
             </tbody>
           </table>
 
-          {/* Inscripciones */}
-          {currentData.inscripciones.length > 0 && (
-            <div className="mt-6">
-              <h3 className="text-sm font-bold mb-2 text-gray-700">INSCRIPCIONES</h3>
-              <table className="border-collapse text-xs bg-white">
+          {/* ============ DIVIDENDOS ============ */}
+          <div className="flex gap-8 flex-wrap">
+            {/* Lado izquierdo: Dividendo socios */}
+            <div>
+              {w.dividendo_socios_4 && (
+                <table className="border-collapse bg-white mb-2">
+                  <tbody>
+                    <tr>
+                      <td className={`${CELL} font-bold`}>{w.dividendo_socios_4.label}</td>
+                      <td className={CELL_R}>{n(w.dividendo_socios_4.monto)}</td>
+                    </tr>
+                    {w.porcentaje_20 && (
+                      <tr>
+                        <td className={CELL}>0.2</td>
+                        <td className={CELL_R}>{n(w.porcentaje_20.monto)}</td>
+                      </tr>
+                    )}
+                    {w.socios_table.filter(s => s.label).map((s, i) => (
+                      <tr key={i}>
+                        <td className={`${CELL} font-bold`}>{s.label}</td>
+                        <td className={CELL_R}>{n(s.monto)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+            </div>
+
+            {/* Lado derecho: Tabla de socios RECIBE/COBRO/AHORRO */}
+            <div>
+              <table className="border-collapse bg-white">
                 <thead>
-                  <tr className="bg-gray-100">
-                    <th className="border border-gray-300 px-3 py-1.5 text-left min-w-[200px]">Custodio</th>
-                    <th className="border border-gray-300 px-3 py-1.5 text-right min-w-[100px]">Monto</th>
+                  <tr>
+                    <th className={HEADER}></th>
+                    <th className={`${HEADER} text-right`}>RECIBE</th>
+                    <th className={`${HEADER} text-right`}>COBRO</th>
+                    <th className={`${HEADER} text-right`}>AHORRO</th>
+                    <th className={`${HEADER} text-right`}>TOTAL</th>
+                    <th className={`${HEADER} text-right`}>GASOLINA</th>
+                    <th className={`${HEADER} text-right`}>TOTAL</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {currentData.inscripciones.map((ins, i) => (
+                  {w.socios_table.map((s, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                      <td className="border border-gray-300 px-3 py-1.5">{ins.custodio}</td>
-                      <td className="border border-gray-300 px-3 py-1.5 text-right font-medium">{fmt(ins.monto)}</td>
+                      <td className={`${CELL} font-bold`}>{s.socio}</td>
+                      <td className={CELL_R}>{n(s.recibe)}</td>
+                      <td className={CELL_R}>{n(s.cobro)}</td>
+                      <td className={CELL_R}>{n(s.ahorro)}</td>
+                      <td className={`${CELL_R} font-bold ${s.total >= 0 ? "" : "text-red-600"}`}>{n(s.total)}</td>
+                      <td className={CELL_R}>{n(s.gasolina)}</td>
+                      <td className={`${CELL_R} font-bold ${s.totalFinal >= 0 ? "text-green-700" : "text-red-600"}`}>{n(s.totalFinal)}</td>
                     </tr>
                   ))}
-                  <tr className="bg-[#D9E2F3] font-bold">
-                    <td className="border border-gray-400 px-3 py-1.5">TOTAL</td>
-                    <td className="border border-gray-400 px-3 py-1.5 text-right">
-                      {fmt(currentData.inscripciones.reduce((s, i) => s + i.monto, 0))}
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
-          )}
-        </>
+          </div>
+
+          {/* ============ INSCRIPCIONES ============ */}
+          <div className="flex gap-8 flex-wrap items-start">
+            <table className="border-collapse bg-white">
+              <thead>
+                <tr>
+                  <th className={HEADER}>INSCRIPCIONES</th>
+                  <th className={`${HEADER} text-right`}>MONTO</th>
+                </tr>
+              </thead>
+              <tbody>
+                {w.inscripciones.map((ins, i) => (
+                  <tr key={i} className="bg-white">
+                    <td className={`${CELL} font-bold`}>{ins.custodio}</td>
+                    <td className={CELL_R}>{ins.monto ? n(ins.monto) : ""}</td>
+                  </tr>
+                ))}
+                {w.inscripciones_total && (
+                  <tr className="bg-[#D9E2F3] font-bold">
+                    <td className={CELL}>TOTAL</td>
+                    <td className={CELL_R}>{n(w.inscripciones_total.total)}</td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+
+            {/* Distribución inscripciones */}
+            {w.inscripciones_total && (w.inscripciones_total.para_daniel > 0 || w.inscripciones_total.para_socios > 0) && (
+              <table className="border-collapse bg-white">
+                <thead>
+                  <tr>
+                    <th className={HEADER}>PARA TRECA-FORTALEZA<br/><span className="font-normal text-[9px]">20% + SU PARTE</span></th>
+                    <th className={HEADER}>PARA SOCIOS<br/><span className="font-normal text-[9px]">SU PARTE</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="bg-white">
+                    <td className={CELL_R}>{n(w.inscripciones_total.para_daniel)}</td>
+                    <td className={CELL_R}>{n(w.inscripciones_total.para_socios)}</td>
+                  </tr>
+                </tbody>
+              </table>
+            )}
+          </div>
+        </div>
       )}
     </div>
   );
