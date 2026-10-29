@@ -5,7 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import { doc, getDoc, collection, query, where, onSnapshot, deleteDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { getSchoolWeeks, getCurrentWeek, formatWeekDate } from "@/utils/calendar";
-import { getWeekStatus } from "@/utils/payments";
+import { getWeekStatus, getStudentBalance } from "@/utils/payments";
 import type { Student, Payment } from "@/utils/payments";
 
 export default function StudentDetailWrapper() {
@@ -72,12 +72,7 @@ function StudentDetailPage() {
     .reduce((s, p) => s + p.amount, 0);
 
   const totalOwed =
-    Array.from({ length: currentWeek }, (_, i) => i + 1).reduce((sum, w) => {
-      const st = getWeekStatus(student, w, payments);
-      if (st.label.startsWith("$")) return sum + student.weeklyRate;
-      if (st.label.startsWith("Abono")) return sum + (student.weeklyRate - st.paid);
-      return sum;
-    }, 0) + (student.inscriptionPaid ? 0 : 300);
+    getStudentBalance(student, payments, currentWeek).owed + (student.inscriptionPaid ? 0 : 300);
 
   return (
     <div className="p-4 max-w-4xl mx-auto">
