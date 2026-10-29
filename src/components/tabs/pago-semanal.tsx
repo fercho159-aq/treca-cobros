@@ -25,6 +25,21 @@ const WEEK_LABELS: Record<number, string> = {
   41: "05-09 Jul", 42: "12-16 Jul",
 };
 
+// Colores de cada tabla (escuela/custodio) tomados del Excel "Pago semanal - Fortaleza"
+const SECTION_COLORS: Record<number, string> = {
+  1: "#0000FF", 2: "#0000FF", 3: "#0000FF", // DANIEL CARMEN
+  4: "#6AA84F", 5: "#6AA84F", 6: "#6AA84F", 7: "#6AA84F", // EDUARDO PEREZ
+  8: "#A64D79", 9: "#A64D79", // FERNANDO FABIAN - OSOS
+  10: "#F1C232", // FERNANDO FABIAN - MOISES
+  11: "#76A5AF", 12: "#76A5AF", // OSCAR - CAROLINA
+};
+const DEFAULT_SECTION_COLOR = "#0000CC";
+
+// En el Excel, los alumnos sin número (bajas) se marcan en rojo
+function isRedRow(student: StudentWithSection) {
+  return !student.numInSection || student.status === "baja";
+}
+
 interface StudentWithSection extends Student {
   sectionNum: number;
   numInSection: number;
@@ -112,6 +127,8 @@ export default function PagoSemanalTab() {
 
   // Filtrar alumnos
   const filteredStudents = students.filter((s) => {
+    // Renglones de encabezado del Excel que se colaron como alumnos
+    if (/^\s*TURNO\s*:/i.test(s.name)) return false;
     if (driverFilter !== "todos" && s.driver !== driverFilter) return false;
     if (searchTerm && !s.name.toLowerCase().includes(searchTerm.toLowerCase())) return false;
     return true;
@@ -271,29 +288,37 @@ function SectionBlock({
   onCellClick: (student: Student, week: number, label: string) => void;
   currentWeekRef: React.RefObject<HTMLTableCellElement | null>;
 }) {
+  const color = SECTION_COLORS[section.sectionNum] || DEFAULT_SECTION_COLOR;
+
   return (
     <>
-      {/* Header de sección */}
-      <tr className="bg-[#D9E2F3]">
+      {/* Header de sección con el color de la tabla en el Excel */}
+      <tr style={{ backgroundColor: color }}>
         <td
           colSpan={46}
-          className="px-2 py-1 font-bold text-[11px] text-gray-800 border border-gray-300"
+          className="px-2 py-1 font-bold text-[11px] text-white border border-gray-300"
         >
-          <span className="text-blue-800">ESCUELA:</span> {section.school}
-          <span className="mx-3 text-blue-800">TURNO:</span> {section.shift}
-          <span className="mx-3 text-blue-800">CUSTODIO:</span> {section.driver}
+          <div className="sticky left-2 w-fit">
+            <span className="opacity-90">{section.sectionNum}</span>
+            <span className="ml-3">ESCUELA:</span> {section.school}
+            <span className="ml-3">TURNO:</span> {section.shift}
+            <span className="ml-3">CUSTODIO:</span> {section.driver}
+          </div>
         </td>
       </tr>
 
       {/* Filas de alumnos */}
-      {section.students.map((student, idx) => (
+      {section.students.map((student, idx) => {
+        const red = isRedRow(student);
+        return (
         <tr
           key={student.id}
-          className={`${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-yellow-50`}
+          className={red ? "" : `${idx % 2 === 0 ? "bg-white" : "bg-gray-50"} hover:bg-yellow-50`}
+          style={red ? { backgroundColor: "#FF0000", color: "#fff" } : undefined}
         >
           {/* # */}
-          <td className="sticky left-0 z-10 bg-inherit border border-gray-300 px-1 py-0.5 text-center text-[10px] text-gray-500 min-w-[30px]">
-            {student.numInSection}
+          <td className={`sticky left-0 z-10 bg-inherit border border-gray-300 px-1 py-0.5 text-center text-[10px] min-w-[30px] ${red ? "" : "text-gray-500"}`}>
+            {student.numInSection || ""}
           </td>
 
           {/* Nombre */}
@@ -316,6 +341,7 @@ function SectionBlock({
           <InscriptionCell
             student={student}
             payments={payments}
+            red={red}
             onClick={onCellClick}
           />
 
@@ -327,22 +353,24 @@ function SectionBlock({
               weekNumber={w}
               payments={payments}
               currentWeek={currentWeek}
+              red={red}
               onClick={onCellClick}
             />
           ))}
         </tr>
-      ))}
+        );
+      })}
 
-      {/* Totales por semana (como la fila azul del Excel) */}
-      <tr className="bg-[#0000CC] text-white font-bold">
-        <td colSpan={3} className="sticky left-0 z-10 bg-[#0000CC] border border-[#0000AA] px-1 py-0.5 text-right text-[10px]">
+      {/* Totales por semana (con el color de la tabla, como en el Excel) */}
+      <tr className="text-white font-bold" style={{ backgroundColor: color }}>
+        <td colSpan={3} className="sticky left-0 z-10 bg-inherit border border-gray-300 px-1 py-0.5 text-right text-[10px]">
           TOTAL
         </td>
-        <td className="border border-[#0000AA] px-1 py-0.5 text-center text-[10px]">
+        <td className="border border-gray-300 px-1 py-0.5 text-center text-[10px]">
           {section.students.reduce((sum, s) => sum + getPaidInWeek(payments.filter((p) => p.studentId === s.id), 0), 0)}
         </td>
         {weekNums.map((w) => (
-          <td key={w} className="border border-[#0000AA] px-1 py-0.5 text-center text-[10px]">
+          <td key={w} className="border border-gray-300 px-1 py-0.5 text-center text-[10px]">
             {section.students.reduce((sum, s) => sum + getPaidInWeek(payments.filter((p) => p.studentId === s.id), w), 0)}
           </td>
         ))}
@@ -355,10 +383,12 @@ function SectionBlock({
 function InscriptionCell({
   student,
   payments,
+  red,
   onClick,
 }: {
   student: Student;
   payments: Payment[];
+  red: boolean;
   onClick: (student: Student, week: number, label: string) => void;
 }) {
   const status = getWeekStatus(student, 0, payments);
@@ -368,7 +398,7 @@ function InscriptionCell({
     <td
       onClick={() => onClick(student, 0, "Inscripción")}
       className={`border border-gray-300 px-1 py-0.5 text-center cursor-pointer hover:ring-1 hover:ring-blue-400 hover:ring-inset text-[10px] font-medium min-w-[50px] ${
-        isPaid ? "bg-[#C6EFCE] text-[#006100]" : "bg-white text-gray-500"
+        isPaid ? "bg-[#C6EFCE] text-[#006100]" : red ? "" : "bg-white text-gray-500"
       }`}
     >
       {isPaid ? "300" : ""}
@@ -382,12 +412,14 @@ function WeekCell({
   weekNumber,
   payments,
   currentWeek,
+  red,
   onClick,
 }: {
   student: Student;
   weekNumber: number;
   payments: Payment[];
   currentWeek: number;
+  red: boolean;
   onClick: (student: Student, week: number, label: string) => void;
 }) {
   const status = getWeekStatus(student, weekNumber, payments);
@@ -426,6 +458,9 @@ function WeekCell({
     cellBg = "";
     cellColor = "#000";
   }
+
+  // Fila roja (baja): texto blanco sobre el rojo de la fila
+  if (red && !cellBg) cellColor = "#fff";
 
   return (
     <td
